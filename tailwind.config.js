@@ -12,6 +12,10 @@ module.exports = {
       fontFamily: {
         delta: ['Dela Gothic One', 'sans-serif'],
       },
+      backgroundImage: {
+        'h-product': "url('./img/hero-tentangkami.png')"
+      },
+      
     },
   },
   plugins: [],
