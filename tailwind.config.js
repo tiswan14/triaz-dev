@@ -11,11 +11,12 @@ module.exports = {
       },
       fontFamily: {
         delta: ['Dela Gothic One', 'sans-serif'],
+        quicksand: ['Quicksand', 'sans-serif'],
       },
       backgroundImage: {
         'h-product': "url('./img/hero-tentangkami.png')"
       },
-      
+
     },
   },
   plugins: [],
