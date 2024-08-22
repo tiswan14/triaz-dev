@@ -1,5 +1,5 @@
 module.exports = {
-  content: ['./index.html', './src/**/*.js'],
+  content: ['./index.html', './tentangkami.html', './src/**/*.js'], // Tanda kutip penutup yang hilang sudah ditambahkan
   theme: {
     extend: {
       colors: {

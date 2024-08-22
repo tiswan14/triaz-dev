@@ -12,62 +12,101 @@
       href="https://fonts.googleapis.com/css2?family=Delta+Gothic+One&family=Quicksand:wght@300..700&display=swap"
       rel="stylesheet"
     />
-    <!-- Font -->
+
+    <!-- CDN Icons -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+  />
+    <!-- CDN Icons -->
+
   </head>
   <body>
-     <!-- Navbar -->
-  <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
-    <div class="container">
-      <div class="flex items-center justify-between relative">
-        <div class="px-4">
-          <a href="#home" class="font-bold text-lg text-blue-600 block py-6"> Logo</a>
-        </div>
-        <div class="flex items-center px-4">
-          <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
-            <span class="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
-            <span class="hamburger-line transition duration-300 ease-in-out"></span>
-            <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"></span>
-          </button>
+    <!-- Navbar -->
+    <header class="bg-transparent top-0 left-0 w-full flex items-center z-10">
+      <div class="container">
+        <div class="flex items-center justify-between relative">
+          <div class="px-4">
+            <a href="#home" class="font-bold text-lg text-blue-600 block py-6">
+              Logo</a
+            >
+          </div>
+          <div class="flex items-center px-4">
+            <button
+              id="hamburger"
+              name="hamburger"
+              type="button"
+              class="block absolute right-4 lg:hidden"
+            >
+              <span
+                class="hamburger-line transition duration-300 ease-in-out origin-top-left"
+              ></span>
+              <span
+                class="hamburger-line transition duration-300 ease-in-out"
+              ></span>
+              <span
+                class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"
+              ></span>
+            </button>
 
-          <nav id="navMenu"
-            class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
-            <ul class="block lg:flex ">
-              <li class="group">
-                <a href="#" class="text-base text-black py-2 mx-8  flex group-hover:text-blue-700">Beranda</a>
-              </li>
-              <li class="group">
-                <a href="#" class="text-base text-black py-2 mx-8 flex group-hover:text-blue-700">Tentang
-                  Kami</a>
-              </li>
-              <li class="group">
-                <a href="#" class="text-base text-black py-2 mx-8 flex group-hover:text-blue-700">Product</a>
-              </li>
-              <li class="group">
-                <a href="#" class="text-base text-black py-2 mx-8 flex group-hover:text-blue-700">Fitur</a>
-              </li>
-              <li class="group">
-                <a href="#" class="text-base text-black py-2 mx-8 flex group-hover:text-blue-700">Kontak</a>
-              </li>
-            </ul>
-          </nav>
+            <nav
+              id="navMenu"
+              class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none"
+            >
+              <ul class="block lg:flex">
+                <li class="group">
+                  <a
+                    href="#"
+                    class="text-base text-black py-2 mx-8 flex group-hover:text-blue-700"
+                    >Beranda</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#"
+                    class="text-base text-black py-2 mx-8 flex group-hover:text-blue-700"
+                    >Tentang Kami</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#"
+                    class="text-base text-black py-2 mx-8 flex group-hover:text-blue-700"
+                    >Product</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#"
+                    class="text-base text-black py-2 mx-8 flex group-hover:text-blue-700"
+                    >Fitur</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#"
+                    class="text-base text-black py-2 mx-8 flex group-hover:text-blue-700"
+                    >Kontak</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
         </div>
       </div>
-    </div>
-  </header>
-  <!-- End Navbar -->
+    </header>
+    <!-- End Navbar -->
     <!-- Hero Section -->
     <main>
-      <section class="relative">
-        <!-- Gambar sebagai latar belakang -->
-        <img src="img/hero-tentangkami.png" alt="" class="w-full" />
-        <!-- Teks di tengah gambar -->
-        <h1 class="w-full text-center font-delta text-3xl absolute bg-blue-700">
-          Cari industri yang<br />kamu inginkan.
+      <section">
+        <h1 class="text-center font-delta text text-3xl">
+          Cari industri yang <br />kamu inginkan.
         </h1>
+        <img src="img/hero-tentangkami.png" alt="" class='mb-2' />
       </section>
     </main>
 
-    <!-- Hero Section -->
   </body>
-  <script src="script.js"></script>
+  <script src="js/index.js"></script>
+
 </html>
