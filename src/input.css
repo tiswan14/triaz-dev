@@ -11,3 +11,35 @@
     background: #eae9e6;
   }
 }
+
+@layer utilities {
+  nav .menu {
+    cursor: pointer;
+  }
+  nav .menu .bar {
+    display: block;
+    width: 27px;
+    height: 0.2rem;
+    border-radius: 4px;
+    margin: 7px 0;
+    background: black;
+    transition: all 0.25s ease-in-out;
+  }
+
+  .change .bar1 {
+    transform: rotate(-45deg) translate(-9px, 8px);
+  }
+
+  .change .bar2 {
+    opacity: 0;
+  }
+
+  .change .bar3 {
+    transform: rotate(45deg) translate(-7px, -5px);
+  }
+
+  header nav .list.active {
+    position: absolute;
+    left: 0px;
+  }
+}
