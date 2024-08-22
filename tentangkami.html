@@ -13,46 +13,150 @@
       rel="stylesheet"
     />
     <!-- Font -->
+    <!-- CDN Icons -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+  />
+    <!-- CDN Icons -->
+
   </head>
   <body>
     <!-- Navbar -->
-    <header>
-      <nav class="flex justify-between items-center px-4 py-4">
-        <div class="logo">
-          <h1 class="font-semibold text-lg">LOGO</h1>
+    <header class="bg-transparent top-0 left-0 w-full flex items-center z-10">
+      <div class="container">
+        <div class="flex items-center justify-between relative">
+          <div class="px-4">
+            <a href="#home" class="font-bold text-lg text-blue-600 block py-6">
+              Logo</a
+            >
+          </div>
+          <div class="flex items-center px-4">
+            <button
+              id="hamburger"
+              name="hamburger"
+              type="button"
+              class="block absolute right-4 lg:hidden"
+            >
+              <span
+                class="hamburger-line transition duration-300 ease-in-out origin-top-left"
+              ></span>
+              <span
+                class="hamburger-line transition duration-300 ease-in-out"
+              ></span>
+              <span
+                class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"
+              ></span>
+            </button>
+
+            <nav
+              id="navMenu"
+              class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none"
+            >
+              <ul class="block lg:flex">
+                <li class="group">
+                  <a
+                    href="#"
+                    class="text-base text-black py-2 mx-8 flex group-hover:text-blue-700"
+                    >Beranda</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#"
+                    class="text-base text-black py-2 mx-8 flex group-hover:text-blue-700"
+                    >Tentang Kami</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#"
+                    class="text-base text-black py-2 mx-8 flex group-hover:text-blue-700"
+                    >Product</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#"
+                    class="text-base text-black py-2 mx-8 flex group-hover:text-blue-700"
+                    >Fitur</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#"
+                    class="text-base text-black py-2 mx-8 flex group-hover:text-blue-700"
+                    >Kontak</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
         </div>
-        <div
-          class="list absolute top-16 bg-triatry h-52 w-36 left-[-150px] p-3 transition-all"
-        >
-          <ul class="list">
-            <li><a href="">Beranda</a></li>
-            <li><a href="">Projek</a></li>
-            <li><a href="#">Tentang kami</a></li>
-            <li><a href="#">Fitur</a></li>
-            <li><a href="#">kontak</a></li>
-          </ul>
-        </div>
-        <div class="menu">
-          <div class="bar bar1"></div>
-          <div class="bar bar2"></div>
-          <div class="bar bar3"></div>
-        </div>
-      </nav>
+      </div>
     </header>
     <!-- End Navbar -->
     <!-- Hero Section -->
     <main>
-      <section class="relative">
-        <!-- Gambar sebagai latar belakang -->
-        <img src="img/hero-tentangkami.png" alt="" class="w-full" />
-        <!-- Teks di tengah gambar -->
-        <h1 class="w-full text-center font-delta text-3xl absolute bg-blue-700">
-          Cari industri yang<br />kamu inginkan.
+      <section">
+        <h1 class="text-center font-delta text text-3xl">
+          Cari industri yang <br />kamu inginkan.
         </h1>
+        <img src="img/hero-tentangkami.png" alt="" class='mb-2' />
       </section>
     </main>
 
     <!-- Hero Section -->
+    <!-- Let join -->
+    <main class='flex w-full bg-triatry items-center font-delta gap-3 text-lightf mb-8 text-sm'>
+        <section>
+            <h1 class=''>JOIN WITH US</h1>
+        </section>
+        <section>
+            <img src="img/thinsmooth.svg" class='w-10 h-10' alt="" srcset="">
+        </section>
+        <section>
+            <h1 class=''>LET'S JOIN WITH US</h1>
+        </section>
+        <section>
+            <img src="img/thinsmooth.svg" class='w-10 h-10' alt="" srcset="">
+        </section>
+    </main>
+    <!-- Let join -->
+
+    <!-- Forum Diskusi -->
+    <main>
+        <div class='container max-w-6xl mx-auto px-4'>
+        <section class='flex text-center font-semibold'>
+            <h1 class='bg-triatry w-32 rounded-tl-xl rounded-tr-xl text-primary  text-[15px] py-1'>Projek</h1>
+            <h1 class='bg-bg2 text-triatry w-36 rounded-tl-xl rounded-tr-xl py-1'>Forum Diskusi</h1>
+         </section>
+         <section class="bg-bg2 rounded-xl h-24 flex items-center px-5">
+            <div class="relative w-full">
+                <!-- Ikon Search di Kiri -->
+                <i class="fas fa-search absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-500"></i>
+                
+                <!-- Input Field -->
+                <input type="text" placeholder="Cari industri disini ..." 
+                       class="w-full py-2 pl-10 pr-10 bg-primary rounded-xl placeholder:text-slate-400 placeholder:font-semibold placeholder:text-[14px] placeholder:text-center focus:outline-triatry">
+                       
+            </div>
+          </section>
+        
+        </div>
+    </main>
+    <!-- Forum Diskusi -->
+    <!-- Banner -->
+    <!-- <main>
+        <section class='bg-[url("/img/teknologi.png")] h-32 w-full'>
+            <h1 class='text-white text-center'>test</h1>
+        </section>
+    </main> -->
+    
+    <!-- Banner -->
+
+
+
   </body>
-  <script src="script.js"></script>
+  <script src="js/index.js"></script>
 </html>
