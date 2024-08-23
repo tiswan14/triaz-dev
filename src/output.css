@@ -635,14 +635,14 @@ html {
   margin-right: auto;
 }
 
+.my-4{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
 .my-8{
   margin-top: 2rem;
   margin-bottom: 2rem;
-}
-
-.my-auto{
-  margin-top: auto;
-  margin-bottom: auto;
 }
 
 .-mt-14{
@@ -677,20 +677,12 @@ html {
   margin-left: 0.25rem;
 }
 
-.ml-3{
-  margin-left: 0.75rem;
-}
-
 .ml-6{
   margin-left: 1.5rem;
 }
 
 .ml-8{
   margin-left: 2rem;
-}
-
-.mr-0{
-  margin-right: 0px;
 }
 
 .mr-6{
@@ -797,6 +789,10 @@ html {
   width: 15rem;
 }
 
+.w-96{
+  width: 24rem;
+}
+
 .w-\[100px\]{
   width: 100px;
 }
@@ -833,6 +829,10 @@ html {
   max-width: 100%;
 }
 
+.max-w-sm{
+  max-width: 24rem;
+}
+
 .origin-bottom-left{
   transform-origin: bottom left;
 }
@@ -843,10 +843,6 @@ html {
 
 .flex-col{
   flex-direction: column;
-}
-
-.items-start{
-  align-items: flex-start;
 }
 
 .items-end{
@@ -877,10 +873,6 @@ html {
   --tw-space-y-reverse: 0;
   margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
-}
-
-.self-end{
-  align-self: flex-end;
 }
 
 .overflow-hidden{
@@ -934,6 +926,11 @@ html {
   border-color: rgb(100 116 139 / var(--tw-border-opacity));
 }
 
+.border-sky-500{
+  --tw-border-opacity: 1;
+  border-color: rgb(14 165 233 / var(--tw-border-opacity));
+}
+
 .bg-lightf{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
@@ -958,6 +955,11 @@ html {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-gray-50{
+  --tw-bg-opacity: 1;
+  background-color: rgb(249 250 251 / var(--tw-bg-opacity));
+}
+
 .object-cover{
   -o-object-fit: cover;
      object-fit: cover;
@@ -971,6 +973,10 @@ html {
   padding: 1.5rem;
 }
 
+.p-7{
+  padding: 1.75rem;
+}
+
 .px-2{
   padding-left: 0.5rem;
   padding-right: 0.5rem;
@@ -979,16 +985,6 @@ html {
 .px-4{
   padding-left: 1rem;
   padding-right: 1rem;
-}
-
-.px-6{
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-}
-
-.px-8{
-  padding-left: 2rem;
-  padding-right: 2rem;
 }
 
 .py-1{
@@ -1004,6 +1000,11 @@ html {
 .py-3{
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
+}
+
+.py-4{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .py-5{
@@ -1068,10 +1069,6 @@ html {
 
 .text-\[12px\]{
   font-size: 12px;
-}
-
-.text-\[9px\]{
-  font-size: 9px;
 }
 
 .text-base{
