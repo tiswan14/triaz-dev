@@ -605,14 +605,6 @@ html {
   position: relative;
 }
 
-<<<<<<< HEAD
-.left-\[-150px\]{
-  left: -150px;
-}
-
-.top-16{
-  top: 4rem;
-=======
 .left-0{
   left: 0px;
 }
@@ -633,10 +625,13 @@ html {
   z-index: 10;
 }
 
+.m-10{
+  margin: 2.5rem;
+}
+
 .mx-8{
   margin-left: 2rem;
   margin-right: 2rem;
->>>>>>> 87d434460a449c1dd15036720a470ea48db2f48d
 }
 
 .mx-auto{
@@ -654,6 +649,11 @@ html {
   margin-bottom: auto;
 }
 
+.my-10{
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
 .-mt-14{
   margin-top: -3.5rem;
 }
@@ -662,25 +662,16 @@ html {
   margin-bottom: 3.5rem;
 }
 
+.mb-2{
+  margin-bottom: 0.5rem;
+}
+
 .mb-4{
   margin-bottom: 1rem;
 }
 
-<<<<<<< HEAD
 .mb-60{
   margin-bottom: 15rem;
-=======
-<<<<<<< HEAD
-.mb-9{
-  margin-bottom: 2.25rem;
-}
-
-.ml-1{
-  margin-left: 0.25rem;
-=======
-.mt-\[80px\]{
-  margin-top: 80px;
->>>>>>> tiswan/main
 }
 
 .mb-7{
@@ -755,9 +746,24 @@ html {
   margin-top: 80px;
 }
 
+.mt-4{
+  margin-top: 1rem;
+}
+
+.mt-5{
+  margin-top: 1.25rem;
+}
+
+.mt-6{
+  margin-top: 1.5rem;
+}
+
+.mb-3{
+  margin-bottom: 0.75rem;
+}
+
 .block{
   display: block;
->>>>>>> 87d434460a449c1dd15036720a470ea48db2f48d
 }
 
 .flex{
@@ -768,25 +774,22 @@ html {
   display: none;
 }
 
+.h-1{
+  height: 0.25rem;
+}
+
+.h-12{
+  height: 3rem;
+}
+
 .h-16{
   height: 4rem;
 }
 
-<<<<<<< HEAD
 .h-40{
   height: 10rem;
 }
 
-=======
-<<<<<<< HEAD
-.h-52{
-  height: 13rem;
-}
-
-.h-\[88vh\]{
-  height: 88vh;
-=======
->>>>>>> tiswan/main
 .h-72{
   height: 18rem;
 }
@@ -811,26 +814,20 @@ html {
   height: 400px;
 }
 
-<<<<<<< HEAD
-.w-12{
-  width: 3rem;
-=======
-.h-\[450px\]{
-  height: 450px;
->>>>>>> 87d434460a449c1dd15036720a470ea48db2f48d
-}
-
 .h-screen{
   height: 100vh;
 }
 
-.h-24{
-  height: 6rem;
+.h-2{
+  height: 0.5rem;
 }
 
-.w-16{
-  width: 4rem;
->>>>>>> tiswan/main
+.h-\[1px\]{
+  height: 1px;
+}
+
+.w-12{
+  width: 3rem;
 }
 
 .w-36{
@@ -857,6 +854,10 @@ html {
   width: 264px;
 }
 
+.w-\[30\%\]{
+  width: 30%;
+}
+
 .w-\[300px\]{
   width: 300px;
 }
@@ -865,19 +866,28 @@ html {
   width: 400px;
 }
 
-<<<<<<< HEAD
-=======
-.w-\[450px\]{
-  width: 450px;
-}
-
-<<<<<<< HEAD
-.w-32{
-  width: 8rem;
-=======
->>>>>>> tiswan/main
 .w-full{
   width: 100%;
+}
+
+.w-\[75\%\]{
+  width: 75%;
+}
+
+.w-\[85\%\]{
+  width: 85%;
+}
+
+.w-\[90\%\]{
+  width: 90%;
+}
+
+.w-\[95\%\]{
+  width: 95%;
+}
+
+.w-\[80\%\]{
+  width: 80%;
 }
 
 .max-w-40{
@@ -886,28 +896,22 @@ html {
 
 .max-w-\[250px\]{
   max-width: 250px;
->>>>>>> 87d434460a449c1dd15036720a470ea48db2f48d
 }
 
 .max-w-full{
   max-width: 100%;
 }
 
-<<<<<<< HEAD
-.w-\[240px\]{
-  width: 240px;
+.max-w-xl{
+  max-width: 36rem;
 }
 
-.w-full{
-  width: 100%;
-=======
 .origin-bottom-left{
   transform-origin: bottom left;
 }
 
 .origin-top-left{
   transform-origin: top left;
->>>>>>> 87d434460a449c1dd15036720a470ea48db2f48d
 }
 
 .flex-col{
@@ -934,20 +938,30 @@ html {
   justify-content: space-between;
 }
 
-<<<<<<< HEAD
-.gap-2{
-  gap: 0.5rem;
-=======
 .gap-3{
   gap: 0.75rem;
->>>>>>> 87d434460a449c1dd15036720a470ea48db2f48d
 }
 
 .gap-7{
   gap: 1.75rem;
 }
 
-<<<<<<< HEAD
+.gap-2{
+  gap: 0.5rem;
+}
+
+.gap-1{
+  gap: 0.25rem;
+}
+
+.gap-5{
+  gap: 1.25rem;
+}
+
+.gap-4{
+  gap: 1rem;
+}
+
 .space-y-2 > :not([hidden]) ~ :not([hidden]){
   --tw-space-y-reverse: 0;
   margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
@@ -958,19 +972,12 @@ html {
   align-self: flex-end;
 }
 
-=======
-<<<<<<< HEAD
-.gap-8{
-  gap: 2rem;
-=======
->>>>>>> tiswan/main
 .overflow-hidden{
   overflow: hidden;
 }
 
 .whitespace-pre-line{
   white-space: pre-line;
->>>>>>> 87d434460a449c1dd15036720a470ea48db2f48d
 }
 
 .rounded-2xl{
@@ -985,17 +992,40 @@ html {
   border-radius: 60px;
 }
 
-<<<<<<< HEAD
-.rounded-xl{
-  border-radius: 0.75rem;
-=======
 .rounded-full{
   border-radius: 9999px;
 }
 
 .rounded-lg{
   border-radius: 0.5rem;
->>>>>>> 87d434460a449c1dd15036720a470ea48db2f48d
+}
+
+.rounded-xl{
+  border-radius: 0.75rem;
+}
+
+.rounded-\[15px\]{
+  border-radius: 15px;
+}
+
+.rounded-\[16px\]{
+  border-radius: 16px;
+}
+
+.rounded-\[17px\]{
+  border-radius: 17px;
+}
+
+.rounded-\[18px\]{
+  border-radius: 18px;
+}
+
+.rounded-\[19px\]{
+  border-radius: 19px;
+}
+
+.rounded-\[20px\]{
+  border-radius: 20px;
 }
 
 .border{
@@ -1004,13 +1034,6 @@ html {
 
 .border-2{
   border-width: 2px;
-<<<<<<< HEAD
-}
-
-.border-b-2{
-  border-bottom-width: 2px;
-=======
->>>>>>> 87d434460a449c1dd15036720a470ea48db2f48d
 }
 
 .border-secondary{
@@ -1018,11 +1041,6 @@ html {
   border-color: rgb(27 27 27 / var(--tw-border-opacity));
 }
 
-<<<<<<< HEAD
-.bg-blue-700{
-  --tw-bg-opacity: 1;
-  background-color: rgb(29 78 216 / var(--tw-bg-opacity));
-=======
 .border-slate-400{
   --tw-border-opacity: 1;
   border-color: rgb(148 163 184 / var(--tw-border-opacity));
@@ -1031,7 +1049,6 @@ html {
 .border-slate-500{
   --tw-border-opacity: 1;
   border-color: rgb(100 116 139 / var(--tw-border-opacity));
->>>>>>> 87d434460a449c1dd15036720a470ea48db2f48d
 }
 
 .bg-lightf{
@@ -1039,34 +1056,42 @@ html {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-<<<<<<< HEAD
 .bg-slate-600{
   --tw-bg-opacity: 1;
   background-color: rgb(71 85 105 / var(--tw-bg-opacity));
 }
 
-=======
-<<<<<<< HEAD
-=======
->>>>>>> tiswan/main
 .bg-transparent{
   background-color: transparent;
 }
 
->>>>>>> 87d434460a449c1dd15036720a470ea48db2f48d
 .bg-triatry{
   --tw-bg-opacity: 1;
   background-color: rgb(231 69 34 / var(--tw-bg-opacity));
 }
 
-<<<<<<< HEAD
-.p-3{
-  padding: 0.75rem;
-=======
 .bg-white{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
->>>>>>> 87d434460a449c1dd15036720a470ea48db2f48d
+}
+
+.bg-\[\#D9D9D9\]{
+  --tw-bg-opacity: 1;
+  background-color: rgb(217 217 217 / var(--tw-bg-opacity));
+}
+
+.bg-red-300{
+  --tw-bg-opacity: 1;
+  background-color: rgb(252 165 165 / var(--tw-bg-opacity));
+}
+
+.bg-nav{
+  --tw-bg-opacity: 1;
+  background-color: rgb(27 27 27 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#dddd\]{
+  background-color: #dddd;
 }
 
 .object-cover{
@@ -1082,9 +1107,26 @@ html {
   padding: 1.5rem;
 }
 
+.p-1{
+  padding: 0.25rem;
+}
+
+.p-4{
+  padding: 1rem;
+}
+
+.p-3{
+  padding: 0.75rem;
+}
+
 .px-2{
   padding-left: 0.5rem;
   padding-right: 0.5rem;
+}
+
+.px-3{
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
 }
 
 .px-4{
@@ -1092,7 +1134,6 @@ html {
   padding-right: 1rem;
 }
 
-<<<<<<< HEAD
 .px-6{
   padding-left: 1.5rem;
   padding-right: 1.5rem;
@@ -1101,22 +1142,6 @@ html {
 .px-8{
   padding-left: 2rem;
   padding-right: 2rem;
-=======
-<<<<<<< HEAD
-.px-4{
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-
-.px-6{
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-=======
-.py-1{
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
->>>>>>> 87d434460a449c1dd15036720a470ea48db2f48d
->>>>>>> tiswan/main
 }
 
 .py-1{
@@ -1139,11 +1164,29 @@ html {
   padding-bottom: 1.25rem;
 }
 
-<<<<<<< HEAD
-=======
 .py-6{
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
+}
+
+.py-4{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.px-7{
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
+}
+
+.px-10{
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.px-9{
+  padding-left: 2.25rem;
+  padding-right: 2.25rem;
 }
 
 .pb-2{
@@ -1162,18 +1205,74 @@ html {
   padding-right: 1.5rem;
 }
 
-<<<<<<< HEAD
 .pt-6{
   padding-top: 1.5rem;
+}
+
+.pt-2{
+  padding-top: 0.5rem;
+}
+
+.pt-5{
+  padding-top: 1.25rem;
+}
+
+.pt-3{
+  padding-top: 0.75rem;
+}
+
+.pt-4{
+  padding-top: 1rem;
+}
+
+.pl-1{
+  padding-left: 0.25rem;
+}
+
+.pl-3{
+  padding-left: 0.75rem;
+}
+
+.pr-3{
+  padding-right: 0.75rem;
+}
+
+.pt-1{
+  padding-top: 0.25rem;
+}
+
+.pl-4{
+  padding-left: 1rem;
+}
+
+.pl-5{
+  padding-left: 1.25rem;
+}
+
+.pl-6{
+  padding-left: 1.5rem;
+}
+
+.pl-8{
+  padding-left: 2rem;
+}
+
+.pl-9{
+  padding-left: 2.25rem;
+}
+
+.pb-8{
+  padding-bottom: 2rem;
+}
+
+.pb-4{
+  padding-bottom: 1rem;
 }
 
 .text-left{
   text-align: left;
 }
 
-=======
->>>>>>> 87d434460a449c1dd15036720a470ea48db2f48d
->>>>>>> tiswan/main
 .text-center{
   text-align: center;
 }
@@ -1200,6 +1299,10 @@ html {
   font-size: 12px;
 }
 
+.text-\[15px\]{
+  font-size: 15px;
+}
+
 .text-\[9px\]{
   font-size: 9px;
 }
@@ -1211,14 +1314,6 @@ html {
 
 .text-lg{
   font-size: 1.125rem;
-<<<<<<< HEAD
-  line-height: 1.75rem;
-}
-
-.text-xl{
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-=======
   line-height: 1.75rem;
 }
 
@@ -1227,24 +1322,15 @@ html {
   line-height: 1.25rem;
 }
 
-<<<<<<< HEAD
-=======
 .text-xl{
   font-size: 1.25rem;
   line-height: 1.75rem;
 }
 
-.text-xs{
-  font-size: 0.75rem;
-  line-height: 1rem;
+.text-\[13px\]{
+  font-size: 13px;
 }
 
-.text-\[10px\]{
-  font-size: 10px;
->>>>>>> 87d434460a449c1dd15036720a470ea48db2f48d
-}
-
->>>>>>> tiswan/main
 .font-bold{
   font-weight: 700;
 }
@@ -1277,61 +1363,24 @@ html {
   color: rgb(231 69 34 / var(--tw-text-opacity));
 }
 
-<<<<<<< HEAD
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-=======
-<<<<<<< HEAD
-.transition-all{
-  transition-property: all;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
+.text-nav{
+  --tw-text-opacity: 1;
+  color: rgb(27 27 27 / var(--tw-text-opacity));
 }
 
-nav .menu {
-  cursor: pointer;
+.text-\[\#dddd\]{
+  color: #dddd;
 }
 
-nav .menu .bar {
-  display: block;
-  width: 27px;
-  height: 0.2rem;
-  border-radius: 4px;
-  margin: 7px 0;
-  background: black;
-  transition: all 0.25s ease-in-out;
-}
-
-.change .bar1 {
-  transform: rotate(-45deg) translate(-9px, 8px);
-}
-
-.change .bar2 {
-  opacity: 0;
-}
-
-.change .bar3 {
-  transform: rotate(45deg) translate(-7px, -5px);
-}
-
-header nav .list.active {
-  position: absolute;
-  left: 0px;
-}
-
-.hover\:bg-orange-600:hover{
-  --tw-bg-opacity: 1;
-  background-color: rgb(234 88 12 / var(--tw-bg-opacity));
-=======
->>>>>>> tiswan/main
 .shadow-lg{
   --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
->>>>>>> 87d434460a449c1dd15036720a470ea48db2f48d
 }
 
 .transition{
@@ -1350,16 +1399,6 @@ header nav .list.active {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.navbar-fixed{
-  position: fixed;
-  z-index: 9999;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-  --tw-bg-opacity: 0.8;
-  -webkit-backdrop-filter: blur(5px);
-          backdrop-filter: blur(5px);
-  box-shadow: inset 0 -1px 0 0 rgba(0, 0, 0, 0.2);
-}
-
 .hamburger-line{
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
@@ -1368,22 +1407,6 @@ header nav .list.active {
   width: 2rem;
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
-}
-
-.hamburger-active > span:nth-child(1){
-  --tw-rotate: 45deg;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.hamburger-active > span:nth-child(2){
-  --tw-scale-x: 0;
-  --tw-scale-y: 0;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.hamburger-active > span:nth-child(3){
-  --tw-rotate: -45deg;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .group:hover .group-hover\:text-blue-700{
@@ -1426,4 +1449,3 @@ header nav .list.active {
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   }
 }
-
