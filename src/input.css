@@ -64,4 +64,11 @@
   .hamburger-active > span:nth-child(3) {
     @apply -rotate-45;
   }
+
+
+
+
+  .h-fitur{
+    @apply hover:shadow-2xl hover:-translate-y-1 hover:scale-105 transition-transform duration-300;
+  }
 }
