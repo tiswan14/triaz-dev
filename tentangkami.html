@@ -1,112 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="./src/output.css" />
-    <!-- Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Delta+Gothic+One&family=Quicksand:wght@300..700&display=swap"
-      rel="stylesheet"
-    />
 
-    <!-- CDN Icons -->
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
-  />
-    <!-- CDN Icons -->
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="./src/output.css" />
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Delta+Gothic+One&family=Quicksand:wght@300..700&display=swap"
+    rel="stylesheet" />
 
-  </head>
-  <body>
-    <!-- Navbar -->
-    <header class="bg-transparent top-0 left-0 w-full flex items-center z-10">
-      <div class="container">
-        <div class="flex items-center justify-between relative">
-          <div class="px-4">
-            <a href="#home" class="font-bold text-lg text-blue-600 block py-6">
-              Logo</a
-            >
-          </div>
-          <div class="flex items-center px-4">
-            <button
-              id="hamburger"
-              name="hamburger"
-              type="button"
-              class="block absolute right-4 lg:hidden"
-            >
-              <span
-                class="hamburger-line transition duration-300 ease-in-out origin-top-left"
-              ></span>
-              <span
-                class="hamburger-line transition duration-300 ease-in-out"
-              ></span>
-              <span
-                class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"
-              ></span>
-            </button>
+  <!-- CDN Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <!-- CDN Icons -->
 
-            <nav
-              id="navMenu"
-              class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none"
-            >
-              <ul class="block lg:flex">
-                <li class="group">
-                  <a
-                    href="#"
-                    class="text-base text-black py-2 mx-8 flex group-hover:text-blue-700"
-                    >Beranda</a
-                  >
-                </li>
-                <li class="group">
-                  <a
-                    href="#"
-                    class="text-base text-black py-2 mx-8 flex group-hover:text-blue-700"
-                    >Tentang Kami</a
-                  >
-                </li>
-                <li class="group">
-                  <a
-                    href="#"
-                    class="text-base text-black py-2 mx-8 flex group-hover:text-blue-700"
-                    >Product</a
-                  >
-                </li>
-                <li class="group">
-                  <a
-                    href="#"
-                    class="text-base text-black py-2 mx-8 flex group-hover:text-blue-700"
-                    >Fitur</a
-                  >
-                </li>
-                <li class="group">
-                  <a
-                    href="#"
-                    class="text-base text-black py-2 mx-8 flex group-hover:text-blue-700"
-                    >Kontak</a
-                  >
-                </li>
-              </ul>
-            </nav>
-          </div>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
+    <div class="container">
+      <div class="flex items-center justify-between relative">
+        <div class="px-4">
+          <a href="#home" class="font-bold text-lg text-triatry block py-6"> Logo</a>
+        </div>
+        <div class="flex items-center px-4">
+          <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
+            <span class="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
+            <span class="hamburger-line transition duration-300 ease-in-out"></span>
+            <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"></span>
+          </button>
+
+          <nav id="navMenu"
+            class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
+            <ul class="block lg:flex ">
+              <li class="group">
+                <a href="#" class="text-base text-black py-2 mx-8  flex group-hover:text-triatry">Beranda</a>
+              </li>
+              <li class="group">
+                <a href="#" class="text-base text-black py-2 mx-8 flex group-hover:text-triatry">Tentang
+                  Kami</a>
+              </li>
+              <li class="group">
+                <a href="#" class="text-base text-black py-2 mx-8 flex group-hover:text-triatry">Product</a>
+              </li>
+              <li class="group">
+                <a href="#" class="text-base text-black py-2 mx-8 flex group-hover:text-triatry">Fitur</a>
+              </li>
+              <li class="group">
+                <a href="#" class="text-base text-black py-2 mx-8 flex group-hover:text-triatry">Kontak</a>
+              </li>
+            </ul>
+          </nav>
         </div>
       </div>
-    </header>
-    <!-- End Navbar -->
-    <!-- Hero Section -->
-    <main>
-      <section">
-        <h1 class="text-center font-delta text text-3xl">
-          Cari industri yang <br />kamu inginkan.
-        </h1>
-        <img src="img/hero-tentangkami.png" alt="" class='mb-2' />
-      </section>
-    </main>
+    </div>
+  </header>
+  <!-- End Navbar -->
 
-  </body>
-  <!-- <script src="js/index.js"></script> -->
+
+
+
+
+
+  <!-- Hero Section -->
+  <div class="relative">
+    <div class="bg-cover h-56 bg-center w-full max-w-full lg:h-[29rem] md:h-[20rem]"
+      style="background-image: url(./img/hero-tentangkami.png)">
+      <div class="flex flex-col items-center justify-center h-full relative p-10 ">
+        <h1 class="text-2xl text-center font-delta lg:text-6xl md:text-4xl mt-2">
+          <span class="underline decoration-triatry">Cari Industri yang <br>kamu inginkan.
+        </h1>
+        <div class="text-sm text-center mt-2 lg:mt-12">
+          <span class="text-[10px] font-medium lg:text-xl">Manfaatkan masa kini untuk menunjang kesuksesan di masa
+            depan.</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+<script src="js/index.js"></script>
 
 </html>
