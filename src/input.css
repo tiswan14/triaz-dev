@@ -69,3 +69,18 @@
   @apply -rotate-45;
 }
 
+.box {
+  @apply bg-triatry text-white w-48 rounded-xl p-3 mx-auto lg:w-56;
+}
+
+.card {
+  @apply bg-lightf py-4 rounded-lg mb-3 pr-3;
+}
+
+ul li a {
+  @apply text-base font-light text-nav py-2 mx-8 flex hover:font-semibold;
+}
+
+.nav-text {
+  @apply text-sm md:text-base lg:text-lg;
+}

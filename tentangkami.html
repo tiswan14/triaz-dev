@@ -25,12 +25,12 @@
     <header class="bg-transparent top-0 left-0 w-full flex items-center z-10">
       <div class="container mx-auto">
         <div class="flex items-center justify-between relative">
-          <div class="px-4">
-            <a href="#home" class="font-bold text-lg text-triatry block py-4">
+          <div class="px-6">
+            <a href="#home" class="font-bold text-lg text-triatry block py-4 md:text-2xl">
               Logo
             </a>
           </div>
-          <div class="flex items-center px-2">
+          <div class="flex items-center px-6">
             <button
               id="hamburger"
               name="hamburger"
@@ -54,37 +54,40 @@
             >
               <ul class="block md:flex">
                 <li class="group">
-                  <a
-                    href="#"
-                    class="text-base text-black py-2 mx-8 flex group-hover:text-triatry"
+                  <a 
+                    class='border-b-2 border-transparent hover:border-nav transition-all'
+                    href="index.html"
                     >Beranda</a
                   >
+                  
                 </li>
                 <li class="group">
                   <a
-                    href="#"
-                    class="text-base text-black py-2 mx-8 flex group-hover:text-blue-700"
-                    >Tentang Kami</a
+                  class='font-bold border-b-2 border-nav transition-all'
+                  href="tentangkami.html"
+                  >Tentang Kami</a
                   >
+                  <!-- <div class='w-10 h-[3px] md:bg-nav ml-9 -mt-[10px] hover:text-black rounded-lg'></div> -->
                 </li>
                 <li class="group">
                   <a
-                    href="#"
-                    class="text-base text-black py-2 mx-8 flex group-hover:text-blue-700"
+                  class='border-b-2 border-transparent hover:border-nav transition-all'
+                    href="product.html"
                     >Product</a
                   >
                 </li>
                 <li class="group">
                   <a
-                    href="#"
-                    class="text-base text-black py-2 mx-8 flex group-hover:text-blue-700"
+                  class='border-b-2 border-transparent hover:border-nav transition-all'
+                    href="fiturungulan.html
+                    "
                     >Fitur</a
                   >
                 </li>
                 <li class="group">
                   <a
-                    href="#"
-                    class="text-base text-black py-2 mx-8 flex group-hover:text-blue-700"
+                  class='border-b-2 border-transparent hover:border-nav transition-all'
+                    href="kontak.html"
                     >Kontak</a
                   >
                 </li>
@@ -124,10 +127,10 @@
             Tentang Kami
           </h1>
           <div
-            class="bg-triatry w-[150px] h-1 mt-1 mx-auto md:w-[220px] md:h-2 md:mt-2"
+            class="bg-triatry w-[150px] h-1 mt-1 rounded mx-auto md:w-[240px] md:h-[6px] md:mt-2"
           ></div>
           <p
-            class="text-center px-4 mt-2 text-sm md:w-[90%] md:text-base mx-auto lg:w-[80%] lg:text-lg"
+            class="text-center px-4 mt-2 text-sm md:w-[90%] md:text-base mx-auto lg:w-[75%] lg:text-lg"
           >
             Kami adalah
             <span class="font-semibold">platform edukatif</span> yang
@@ -165,17 +168,17 @@
         <section>
           <div class="md:flex md:flex-col md:px-2 md:gap-3">
             <div class="md:flex md:items-center md:gap-10">
-              <div class="flex pb-14 md:flex-col md:gap-10">
-                <div class="bg-triatry text-white rounded-xl p-3 mx-auto w-56 md:mt-14">
-                  <img src="img/profile.png" alt="" />
+              <div class="flex gap-3 mb-4 md:flex-col md:gap-10">
+                <div class="box flex-shrink-0 md:mt-14">
+                  <img src="img/profile-randika.jpg" alt="" />
                   <div class="p-2">
                     <h1 class="font-bold">M. Randika Saputra</h1>
                     <p class="text-sm font-semibold">CEO</p>
                   </div>
                 </div>
 
-                <div class="bg-triatry text-white rounded-xl p-3 mx-auto w-56">
-                  <img src="img/profile.png" alt="" />
+                <div class="box flex-shrink-0">
+                  <img src="img/profile-tiswan1.jpg" alt="" />
                   <div class="p-2">
                     <h1 class="font-bold">Tiswan</h1>
                     <p class="text-sm font-semibold">Developer</p>
@@ -184,8 +187,8 @@
               </div>
 
               <div class="">
-                <div class="bg-triatry text-white rounded-xl p-3 mx-auto w-56">
-                  <img src="img/profile.png" alt="" />
+                <div class="box">
+                  <img src="img/profile-azmi.jpg" alt="" />
                   <div class="p-2">
                     <h1 class="font-bold">Azmi Nur Izza</h1>
                     <p class="text-base font-semibold">Tim Kreatif</p>
@@ -207,11 +210,11 @@
           <h1 class="font-delta text-xl md:text-3xl ">
             Apa yang orang pikirkan tentang kami
           </h1>
-          <div class="bg-triatry w-[85%] h-1 mx-auto mt-2 md:h-2"></div>
+          <div class="bg-triatry w-[85%] rounded h-1 mx-auto mt-2 md:h-[6px] md:w-[95%]"></div>
         </section>
         <section>
           <div class="p-4">
-            <div class="bg-lightf py-4 rounded-lg mb-3">
+            <div class="card">
               <div class="flex gap-3 px-8">
                 <div>
                   <img src="img/profile-madelyn.png" alt="" />
@@ -229,7 +232,7 @@
                 </p>
               </div>
             </div>
-            <div class="bg-lightf py-4 rounded-lg mb-3">
+            <div class="card">
               <div class="flex gap-3 px-8">
                 <div>
                   <img src="img/profile-angel.png" alt="" />
@@ -247,7 +250,7 @@
                 </p>
               </div>
             </div>
-            <div class="bg-lightf py-4 rounded-lg">
+            <div class="card">
               <div class="flex gap-3 px-8">
                 <div>
                   <img src="img/profile-marcus.png" alt="" />
@@ -324,11 +327,11 @@
           </div>
         </section>
         <section class="mb-4">
-          <ul class="flex gap-5 text-[15px] md:gap-16 md:text-lg">
-            <li><a href="#">Beranda</a></li>
-            <li><a href="#">Tentang Kami</a></li>
-            <li><a href="#">Fitur</a></li>
-            <li><a href="#">Kontak</a></li>
+          <ul class="flex gap-1 md:gap-6">
+            <li><a class='nav-text' href="index.html">Beranda</a></li>
+            <li><a class='nav-text' href="tentangkami.html">Tentang Kami</a></li>
+            <li><a class='nav-text' href="fiturungulan.html">Fitur</a></li>
+            <li><a class='nav-text' href="kontak.html">Kontak</a></li>
           </ul>
         </section>
       </div>
