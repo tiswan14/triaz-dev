@@ -54,7 +54,7 @@
 }
 
 .hamburger-line {
-  @apply w-7 h-[2px] my-[7px] block bg-black;
+  @apply w-7 h-[2px] my-[7px] block bg-triatry;
 }
 
 .hamburger-active > span:nth-child(1) {
