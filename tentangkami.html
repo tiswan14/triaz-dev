@@ -1,278 +1,344 @@
 <!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tentang Kami</title>
+    <link rel="stylesheet" href="./src/output.css" />
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Delta+Gothic+One&family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Tentang Kami</title>
-  <link rel="stylesheet" href="./src/output.css" />
-  <!-- Font -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Delta+Gothic+One&family=Quicksand:wght@300..700&display=swap"
-    rel="stylesheet" />
+    <!-- CDN Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <!-- CDN Icons -->
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header class="bg-transparent top-0 left-0 w-full flex items-center z-10">
+      <div class="container mx-auto">
+        <div class="flex items-center justify-between relative">
+          <div class="px-4">
+            <a href="#home" class="font-bold text-lg text-triatry block py-4">
+              Logo
+            </a>
+          </div>
+          <div class="flex items-center px-2">
+            <button
+              id="hamburger"
+              name="hamburger"
+              type="button"
+              class="block md:hidden"
+            >
+              <span
+                class="hamburger-line block transition duration-300 ease-in-out origin-top-left"
+              ></span>
+              <span
+                class="hamburger-line block transition duration-300 ease-in-out"
+              ></span>
+              <span
+                class="hamburger-line block transition duration-300 ease-in-out origin-bottom-left"
+              ></span>
+            </button>
 
-  <!-- CDN Icons -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
-  <!-- CDN Icons -->
-</head>
-
-<body>
-  <!-- Navbar -->
-  <header class="bg-transparent top-0 left-0 w-full flex items-center z-10">
-    <div class="container">
-      <div class="flex items-center justify-between relative">
-        <div class="px-4">
-          <a href="#home" class="font-bold text-lg text-triatry block py-4">
-            Logo</a>
-        </div>
-        <div class="flex items-center px-4">
-          <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
-            <span class="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
-            <span class="hamburger-line transition duration-300 ease-in-out"></span>
-            <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"></span>
-          </button>
-
-          <nav id="navMenu"
-            class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
-            <ul class="block lg:flex">
-              <li class="group">
-                <a href="#" class="text-base text-black py-2 mx-8 flex group-hover:text-blue-700">Beranda</a>
-              </li>
-              <li class="group">
-                <a href="#" class="text-base text-black py-2 mx-8 flex group-hover:text-blue-700">Tentang Kami</a>
-              </li>
-              <li class="group">
-                <a href="#" class="text-base text-black py-2 mx-8 flex group-hover:text-blue-700">Product</a>
-              </li>
-              <li class="group">
-                <a href="#" class="text-base text-black py-2 mx-8 flex group-hover:text-blue-700">Fitur</a>
-              </li>
-              <li class="group">
-                <a href="#" class="text-base text-black py-2 mx-8 flex group-hover:text-blue-700">Kontak</a>
-              </li>
-            </ul>
-          </nav>
+            <nav
+              id="navMenu"
+              class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full md:block md:static md:bg-transparent md:max-w-full md:shadow-none md:rounded-none"
+            >
+              <ul class="block md:flex">
+                <li class="group">
+                  <a
+                    href="#"
+                    class="text-base text-black py-2 mx-8 flex group-hover:text-triatry"
+                    >Beranda</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#"
+                    class="text-base text-black py-2 mx-8 flex group-hover:text-blue-700"
+                    >Tentang Kami</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#"
+                    class="text-base text-black py-2 mx-8 flex group-hover:text-blue-700"
+                    >Product</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#"
+                    class="text-base text-black py-2 mx-8 flex group-hover:text-blue-700"
+                    >Fitur</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#"
+                    class="text-base text-black py-2 mx-8 flex group-hover:text-blue-700"
+                    >Kontak</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
         </div>
       </div>
-    </div>
-  </header>
-  <!-- End Navbar -->
-  <!-- Hero Section -->
-  <main>
-    <div class="container flex max-w-3xl justify-center items-center px-3 mx-auto">
-      <section class="flex flex-col gap-3">
-        <img src="img/hero-tentangkami-1.png" alt="" />
-        <img src="img/shapes-tentangkami.png" alt="" />
-      </section>
-      <section class="flex flex-col gap-3">
-        <img src="img/shapes-tentangkami.png" alt="" />
-        <img src="img/hero-tentangkami-3.png" alt="" />
-      </section>
-    </div>
-  </main>
-  <!-- Hero Section -->
+    </header>
 
-  <!-- Tentang kami -->
-  <main>
-    <div class="container max-w-xl mx-auto mt-5">
-      <section>
-        <h1 class="text-center font-delta text-xl">Tentang Kami</h1>
-        <div class="bg-triatry w-[30%] h-1 mx-auto"></div>
-        <p class="text-center px-4 mt-2 text-sm">
-          Kami adalah
-          <span class="font-semibold">platform edukatif</span> yang
-          menyediakan sumber belajar dan
-          <span class="font-semibold">sumber daya profesional untuk berbagai industri</span>. Fitur kami meliputi
-          deskripsi industri, simulasi proyek, forum
-          diskusi, mentorship online, resource hub, katalog perusahaan, dan
-          pembuatan portofolio otomatis. Kami membantu pengguna
-          <span class="font-semibold">meningkatkan keterampilan</span> dan
-          karirnya dengan konten
-          <span class="font-semibold">yang relevan dan interaktif.</span>
-        </p>
-      </section>
-    </div>
-  </main>
-  <!-- Tentang kami -->
+    <!-- End Navbar -->
+    <!-- Hero Section -->
+    <main>
+      <div
+        class="container flex max-w-3xl justify-center items-center px-4 mx-auto md:max-w-5xl mt-10"
+      >
+        <section class="flex flex-col gap-3">
+           <img src="img/hero-tentangkami-1.png" alt=""  />
+          <img src="img/shapes-tentangkami.png" alt="" />
+        </section>
+        <section>
+          <img src="img/hero-tentangkami-2.png" alt="" class="w-[450px]" />
+        </section>
+        <section class="flex flex-col gap-3">
+          <img src="img/shapes-tentangkami.png" alt="" />
+          <img src="img/hero-tentangkami-3.png" alt="" />
+        </section>
+      </div>
+    </main>
+    <!-- Hero Section -->
 
-  <!-- Tim terbaik kami -->
-  <main class="bg-[#D9D9D9]">
-    <div class="container max-w-xl mx-auto mt-10 pb-4 ">
+    <!-- Tentang kami -->
+    <main>
+      <div class="container max-w-xl mx-auto mt-5 md:max-w-full">
+        <section>
+          <h1 class="text-center font-delta text-xl md:text-2xl lg:text-3xl">
+            Tentang Kami
+          </h1>
+          <div
+            class="bg-triatry w-[150px] h-1 mt-1 mx-auto md:w-[220px] md:h-2 md:mt-2"
+          ></div>
+          <p
+            class="text-center px-4 mt-2 text-sm md:w-[90%] md:text-base mx-auto lg:w-[80%] lg:text-lg"
+          >
+            Kami adalah
+            <span class="font-semibold">platform edukatif</span> yang
+            menyediakan sumber belajar dan
+            <span class="font-semibold"
+              >sumber daya profesional untuk berbagai industri</span
+            >. Fitur kami meliputi deskripsi industri, simulasi proyek, forum
+            diskusi, mentorship online, resource hub, katalog perusahaan, dan
+            pembuatan portofolio otomatis. Kami membantu pengguna
+            <span class="font-semibold">meningkatkan keterampilan</span> dan
+            karirnya dengan konten
+            <span class="font-semibold">yang relevan dan interaktif.</span>
+          </p>
+        </section>
+      </div>
+    </main>
+    <!-- Tentang kami -->
 
-
-      <!-- Tim terbaik kami -->
-      <div>
-        <section class="px-[16px] text-center">
-          <h1 class="font-delta text-xl pt-3">
+    <!-- Tim terbaik kami -->
+    <main class="bg-[#D9D9D9]">
+      <div
+        class="container w-full mx-auto mt-10 pb-4 md:flex items-center "
+      >
+      <div class='md:flex items-center justify-center'>
+        <section class="px-[16px] text-center md:text-left md:w-1/2">
+          <h1 class="font-delta text-xl pt-3 md:text-3xl">
             Tim <span class="w-full h-1 bg-triatry">Terbaik</span>
             Kami
           </h1>
-          <p class="text-sm py-3">
+          <p class="text-sm py-3 md:text-lg md:w-[70%]">
             Didukung oleh Para Profesional Terbaik di Bidangnya, Siap Membantu
             Anda Mencapai Kesuksesan.
           </p>
         </section>
+        <section>
+          <div class="md:flex md:flex-col md:px-2 md:gap-3">
+            <div class="md:flex md:items-center md:gap-10">
+              <div class="flex pb-14 md:flex-col md:gap-10">
+                <div class="bg-triatry text-white rounded-xl p-3 mx-auto w-56 md:mt-14">
+                  <img src="img/profile.png" alt="" />
+                  <div class="p-2">
+                    <h1 class="font-bold">M. Randika Saputra</h1>
+                    <p class="text-sm font-semibold">CEO</p>
+                  </div>
+                </div>
+
+                <div class="bg-triatry text-white rounded-xl p-3 mx-auto w-56">
+                  <img src="img/profile.png" alt="" />
+                  <div class="p-2">
+                    <h1 class="font-bold">Tiswan</h1>
+                    <p class="text-sm font-semibold">Developer</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="">
+                <div class="bg-triatry text-white rounded-xl p-3 mx-auto w-56">
+                  <img src="img/profile.png" alt="" />
+                  <div class="p-2">
+                    <h1 class="font-bold">Azmi Nur Izza</h1>
+                    <p class="text-base font-semibold">Tim Kreatif</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </section>
       </div>
+    </main>
 
-
-      <div>
-        <div class="flex flex-col px-2 gap-3">
-          <div class="bg-triatry text-white rounded-xl p-3 mx-auto">
-            <img src="img/profile.png" alt="" />
-            <div class="p-2">
-              <h1 class="font-bold">M. Randika Saputra</h1>
-              <p class="text-sm font-semibold">CEO</p>
+    <!-- Tim terbaik kami -->
+    <!-- Yang dipikirkan orang tentang kami -->
+    <main>
+      <div class="container flex flex-col items-center max-w-xl mx-auto mt-10 md:max-w-full">
+        <section class="">
+          <h1 class="font-delta text-xl md:text-3xl ">
+            Apa yang orang pikirkan tentang kami
+          </h1>
+          <div class="bg-triatry w-[85%] h-1 mx-auto mt-2 md:h-2"></div>
+        </section>
+        <section>
+          <div class="p-4">
+            <div class="bg-lightf py-4 rounded-lg mb-3">
+              <div class="flex gap-3 px-8">
+                <div>
+                  <img src="img/profile-madelyn.png" alt="" />
+                </div>
+                <div>
+                  <h1 class="font-bold text-triatry">Madeyn Rosser</h1>
+                  <p class="text-sm">Industri Teknik Informatika</p>
+                </div>
+              </div>
+              <div class="w-[85%] h-[1px] bg-[#dddd] mx-auto mt-6"></div>
+              <div>
+                <p class="text-sm text-nav pt-4 pb-8 pl-9">
+                  Materi tentang industri IT yang disajikan sangat komprehensif
+                  dan up-to-date. Terimakasih!
+                </p>
+              </div>
+            </div>
+            <div class="bg-lightf py-4 rounded-lg mb-3">
+              <div class="flex gap-3 px-8">
+                <div>
+                  <img src="img/profile-angel.png" alt="" />
+                </div>
+                <div>
+                  <h1 class="font-bold text-triatry">Angel Lubyn</h1>
+                  <p class="text-sm">Industri Sektor Keuangan</p>
+                </div>
+              </div>
+              <div class="w-[85%] h-[1px] bg-[#dddd] mx-auto mt-6"></div>
+              <div>
+                <p class="text-sm text-nav pt-4 pb-8 pl-9">
+                  Pembahasan tentang tantangan dan peluang di sektor keuangan
+                  disampaikan dengan jelas dan informatif.
+                </p>
+              </div>
+            </div>
+            <div class="bg-lightf py-4 rounded-lg">
+              <div class="flex gap-3 px-8">
+                <div>
+                  <img src="img/profile-marcus.png" alt="" />
+                </div>
+                <div>
+                  <h1 class="font-bold text-triatry">Marcus Curtis</h1>
+                  <p class="text-sm">Industri Manajemen</p>
+                </div>
+              </div>
+              <div class="w-[85%] h-[1px] bg-[#dddd] mx-auto mt-6"></div>
+              <div>
+                <p class="text-sm text-nav pt-4 pb-8 pl-9">
+                  Deskripsi mendalam mengenai industri manajemen benar-benar
+                  membukan wawasan saya
+                </p>
+              </div>
             </div>
           </div>
-
-          <div class="bg-triatry text-white rounded-xl p-3 mx-auto">
-            <img src="img/profile.png" alt="" />
-            <div class="p-2">
-              <h1 class="font-bold">Tiswan</h1>
-              <p class="text-sm font-semibold">Developer</p>
-            </div>
-          </div>
-          <div class="bg-triatry text-white rounded-xl p-3 mx-auto">
-            <img src="img/profile.png" alt="" />
-            <div class="p-2">
-              <h1 class="font-bold">Tiswan</h1>
-              <p class="text-sm font-semibold">Developer</p>
-            </div>
-          </div>
-        </div>
-
+        </section>
       </div>
-    </div>
-  </main>
-  <!-- Tim terbaik kami -->
-  <!-- Yang dipikirkan orang tentang kami -->
-  <main class="">
-    <div class="container flex flex-col items-center max-w-xl mx-auto mt-10">
-      <section class="">
-        <h1 class="font-delta text-xl">
-          Apa yang orang pikirkan tentang kami
-        </h1>
-        <div class="bg-triatry w-[85%] h-1 mx-auto"></div>
-      </section>
-      <section>
-        <div class="p-4">
-          <div class="bg-lightf py-4 rounded-lg mb-3">
-            <div class="flex gap-3 px-8">
-              <div>
-                <img src="img/profile-madelyn.png" alt="" />
-              </div>
-              <div>
-                <h1 class="font-bold text-triatry">Madeyn Rosser</h1>
-                <p class="text-sm">Industri Teknik Informatika</p>
-              </div>
-            </div>
-            <div class="w-[85%] h-[1px] bg-[#dddd] mx-auto mt-6"></div>
-            <div>
-              <p class="text-sm text-nav pt-4 pb-8 pl-9">
-                Materi tentang industri IT yang disajikan sangat komprehensif
-                dan up-to-date. Terimakasih!
-              </p>
-            </div>
+    </main>
+    <!-- Yang dipikirkan orang tentang kami -->
+
+    <!-- Footer  -->
+    <footer class="">
+      <div class="container flex flex-col items-center max-w-xl mx-auto mt-10 md:max-w-full">
+        <section class="text-center px-2 pt-2">
+          <h1 class="font-bold text-xl md:text-3xl">LOGO</h1>
+          <p class="text-[14px] md:text-lg">
+            Manfaatkan masa kini untuk menunjang kesuksesan di masa depan.
+          </p>
+        </section>
+        <section
+          class="text-center flex flex-col gap-3 bg-triatry w-[90%] mt-5 p-3 rounded-lg md:w-[730px]"
+        >
+          <div>
+            <h1 class="text-lightf font-bold text-lg">Kirim Pesan.</h1>
           </div>
-          <div class="bg-lightf py-4 rounded-lg mb-3">
-            <div class="flex gap-3 px-8">
-              <div>
-                <img src="img/profile-angel.png" alt="" />
-              </div>
-              <div>
-                <h1 class="font-bold text-triatry">Angel Lubyn</h1>
-                <p class="text-sm">Industri Sektor Keuangan</p>
-              </div>
-            </div>
-            <div class="w-[85%] h-[1px] bg-[#dddd] mx-auto mt-6"></div>
-            <div>
-              <p class="text-sm text-nav pt-4 pb-8 pl-9">
-                Pembahasan tentang tantangan dan peluang di sektor keuangan
-                disampaikan dengan jelas dan informatif.
-              </p>
-            </div>
+          <div class="flex flex-col gap-6 px-5 text-lightf">
+            <input
+              type="text"
+              placeholder="Nama"
+              class="bg-transparent border-b-[1px] border-[#dddd] placeholder:text-[#dddd] text-sm focus:outline-none focus:placeholder:text-lightf focus:border-lightf"
+            />
+
+            <input
+              type="email"
+              placeholder="Email"
+              class="bg-transparent border-b-[1px] border-[#dddd] placeholder:text-[#dddd] text-sm focus:outline-none focus:placeholder:text-lightf focus:border-lightf"
+            />
+
+            <input
+              type="text"
+              placeholder="Pesan"
+              class="bg-transparent py-8 border-b-[1px] border-[#dddd] placeholder:text-[#dddd] text-sm focus:outline-none focus:placeholder:text-lightf focus:border-lightf"
+            />
+
+            <button
+              class="bg-lightf py-1 rounded-lg font-bold text-triatry hover:bg-slate-100"
+            >
+              Kirim
+            </button>
           </div>
-          <div class="bg-lightf py-4 rounded-lg">
-            <div class="flex gap-3 px-8">
-              <div>
-                <img src="img/profile-marcus.png" alt="" />
-              </div>
-              <div>
-                <h1 class="font-bold text-triatry">Marcus Curtis</h1>
-                <p class="text-sm">Industri Manajemen</p>
-              </div>
-            </div>
-            <div class="w-[85%] h-[1px] bg-[#dddd] mx-auto mt-6"></div>
-            <div>
-              <p class="text-sm text-nav pt-4 pb-8 pl-9">
-                Deskripsi mendalam mengenai industri manajemen benar-benar
-                membukan wawasan saya
-              </p>
-            </div>
+        </section>
+        <section class="my-10">
+          <div>
+            <h1 class="font-semibold mb-4 md:text-lg md:text-center">Follow akun resmi kami:</h1>
           </div>
-        </div>
-      </section>
-    </div>
-  </main>
-  <!-- Yang dipikirkan orang tentang kami -->
-
-  <!-- Footer  -->
-  <footer class="">
-    <div class="container flex flex-col items-center max-w-xl mx-auto mt-10">
-      <section class="text-center px-2 pt-2">
-        <h1 class="font-bold text-xl">LOGO</h1>
-        <p class="text-[14px]">
-          Manfaatkan masa kini untuk menunjang kesuksesan di masa depan.
-        </p>
-      </section>
-      <section class="text-center flex flex-col gap-3 bg-triatry w-[90%] mt-5 p-3 rounded-lg">
-        <div>
-          <h1 class="text-lightf font-bold text-lg">Kirim Pesan.</h1>
-        </div>
-        <div class="flex flex-col gap-6 px-5 text-lightf">
-          <input type="text" placeholder="Nama"
-            class="bg-transparent border-b-[1px] border-[#dddd] placeholder:text-[#dddd] text-sm focus:outline-none focus:placeholder:text-lightf focus:border-lightf" />
-
-          <input type="email" placeholder="Email"
-            class="bg-transparent border-b-[1px] border-[#dddd] placeholder:text-[#dddd] text-sm focus:outline-none focus:placeholder:text-lightf focus:border-lightf" />
-
-          <input type="text" placeholder="Pesan"
-            class="bg-transparent py-8 border-b-[1px] border-[#dddd] placeholder:text-[#dddd] text-sm focus:outline-none focus:placeholder:text-lightf focus:border-lightf" />
-
-          <button class="bg-lightf py-1 rounded-lg font-bold text-triatry hover:bg-slate-100">
-            Kirim
-          </button>
-        </div>
-      </section>
-      <section class="my-10">
-        <div>
-          <h1 class="font-semibold mb-4">Follow akun resmi kami:</h1>
-        </div>
-        <div class="flex justify-center gap-5">
-          <a href=""> <img src="img/Facebook.png" alt="" /></a>
-          <a href=""> <img src="img/Instagram.png" alt="" /></a>
-          <a href=""><img src="img/Tik Tok.png" alt="" /></a>
-          <a href=""><img src="img/Twitter.png" alt="" /></a>
-        </div>
-      </section>
-      <section class="mb-4">
-        <ul class="flex gap-5 text-[15px]">
-          <li><a href="#">Beranda</a></li>
-          <li><a href="#">Tentang Kami</a></li>
-          <li><a href="#">Fitur</a></li>
-          <li><a href="#">Kontak</a></li>
-        </ul>
-      </section>
-      <section class="bg-triatry text-lightf font-light w-full text-center py-2">
-        <p class="text-sm">
-          &copy; 2024 Nama Perusahaan. All rights reserved.
-        </p>
-      </section>
-    </div>
-  </footer>
-  <!-- Footer  -->
-</body>
-<script src="js/index.js"></script>
-
+          <div class="flex justify-center gap-5 md:gap-5">
+            <a href=""> <img src="img/Facebook.png" alt="" /></a>
+            <a href=""> <img src="img/Instagram.png" alt="" /></a>
+            <a href=""><img src="img/Tik Tok.png" alt="" /></a>
+            <a href=""><img src="img/Twitter.png" alt="" /></a>
+          </div>
+        </section>
+        <section class="mb-4">
+          <ul class="flex gap-5 text-[15px] md:gap-16 md:text-lg">
+            <li><a href="#">Beranda</a></li>
+            <li><a href="#">Tentang Kami</a></li>
+            <li><a href="#">Fitur</a></li>
+            <li><a href="#">Kontak</a></li>
+          </ul>
+        </section>
+      </div>
+      <section
+        class="bg-triatry text-lightf font-light w-full text-center py-2"
+      >
+      <p class="text-sm md:text-base w-full">&copy; 2024 Triaz Dev. All rights reserved.</p>
+    </section>
+    </footer>
+    <!-- Footer  -->
+  </body>
+  <script src="js/index.js"></script>
 </html>
