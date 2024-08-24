@@ -1,5 +1,5 @@
 module.exports = {
-  content: ['./index.html', './tentangkami.html', './src/**/*.js'], // Tanda kutip penutup yang hilang sudah ditambahkan
+  content: ['./index.html', './tentangkami.html','./fiturungulan.html','./kontak.html' ,'./src/**/*.js'], // Tanda kutip penutup yang hilang sudah ditambahkan
   theme: {
     extend: {
       colors: {
@@ -8,6 +8,7 @@ module.exports = {
         triatry: '#E74522',
         lightf: '#FFFFFF',
         nav: '#1B1B1B',
+        bg2: '#DDDDDD',
       },
       fontFamily: {
         delta: ['Dela Gothic One', 'sans-serif'],
