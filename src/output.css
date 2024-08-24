@@ -641,6 +641,11 @@ html {
   margin: 1.75rem;
 }
 
+.mx-14{
+  margin-left: 3.5rem;
+  margin-right: 3.5rem;
+}
+
 .mx-8{
   margin-left: 2rem;
   margin-right: 2rem;
@@ -680,6 +685,10 @@ html {
 
 .mb-4{
   margin-bottom: 1rem;
+}
+
+.mb-6{
+  margin-bottom: 1.5rem;
 }
 
 .mb-60{
@@ -730,6 +739,10 @@ html {
   margin-top: 2.5rem;
 }
 
+.mt-12{
+  margin-top: 3rem;
+}
+
 .mt-2{
   margin-top: 0.5rem;
 }
@@ -738,12 +751,20 @@ html {
   margin-top: 5rem;
 }
 
+.mt-24{
+  margin-top: 6rem;
+}
+
 .mt-3{
   margin-top: 0.75rem;
 }
 
 .mt-36{
   margin-top: 9rem;
+}
+
+.mt-4{
+  margin-top: 1rem;
 }
 
 .mt-44{
@@ -836,6 +857,10 @@ html {
 
 .w-40{
   width: 10rem;
+}
+
+.w-48{
+  width: 12rem;
 }
 
 .w-60{
@@ -1018,6 +1043,11 @@ html {
   background-color: #dddd;
 }
 
+.bg-bg2{
+  --tw-bg-opacity: 1;
+  background-color: rgb(221 221 221 / var(--tw-bg-opacity));
+}
+
 .bg-lightf{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
@@ -1081,6 +1111,10 @@ html {
 
 .p-7{
   padding: 1.75rem;
+}
+
+.p-9{
+  padding: 2.25rem;
 }
 
 .px-2{
@@ -1205,6 +1239,10 @@ html {
   text-align: center;
 }
 
+.text-justify{
+  text-align: justify;
+}
+
 .font-delta{
   font-family: Dela Gothic One, sans-serif;
 }
@@ -1263,6 +1301,10 @@ html {
   font-weight: 700;
 }
 
+.font-light{
+  font-weight: 300;
+}
+
 .font-medium{
   font-weight: 500;
 }
@@ -1273,10 +1315,6 @@ html {
 
 .font-semibold{
   font-weight: 600;
-}
-
-.font-light{
-  font-weight: 300;
 }
 
 .text-black{
@@ -1442,6 +1480,11 @@ html {
     margin-right: 2.25rem;
   }
 
+  .md\:my-auto{
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
   .md\:flex{
     display: flex;
   }
@@ -1450,12 +1493,24 @@ html {
     height: 20rem;
   }
 
+  .md\:w-1\/2{
+    width: 50%;
+  }
+
+  .md\:flex-row-reverse{
+    flex-direction: row-reverse;
+  }
+
   .md\:items-center{
     align-items: center;
   }
 
   .md\:justify-center{
     justify-content: center;
+  }
+
+  .md\:gap-20{
+    gap: 5rem;
   }
 
   .md\:text-4xl{
@@ -1482,6 +1537,11 @@ html {
   .lg\:mx-4{
     margin-left: 1rem;
     margin-right: 1rem;
+  }
+
+  .lg\:my-24{
+    margin-top: 6rem;
+    margin-bottom: 6rem;
   }
 
   .lg\:mb-0{
@@ -1580,6 +1640,11 @@ html {
   .lg\:text-4xl{
     font-size: 2.25rem;
     line-height: 2.5rem;
+  }
+
+  .lg\:text-5xl{
+    font-size: 3rem;
+    line-height: 1;
   }
 
   .lg\:text-6xl{
