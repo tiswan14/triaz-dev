@@ -1,5 +1,11 @@
 module.exports = {
-  content: ['./index.html', './tentangkami.html','./fiturungulan.html','./kontak.html' ,'./src/**/*.js'], // Tanda kutip penutup yang hilang sudah ditambahkan
+  content: [
+    './index.html',
+    './tentangkami.html',
+    './fiturungulan.html',
+    './kontak.html',
+    './src/**/*.js',
+  ], // Tanda kutip penutup yang hilang sudah ditambahkan
   theme: {
     extend: {
       colors: {
@@ -15,9 +21,8 @@ module.exports = {
         quicksand: ['Quicksand', 'sans-serif'],
       },
       backgroundImage: {
-        'h-product': "url('./img/hero-tentangkami.png')"
+        'product-ti': "url('img/product-ti.png')",
       },
-
     },
   },
   plugins: [],
