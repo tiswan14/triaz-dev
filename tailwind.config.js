@@ -5,6 +5,7 @@ module.exports = {
     './fiturungulan.html',
     './kontak.html',
     './src/**/*.js',
+    './product.html',
   ], // Tanda kutip penutup yang hilang sudah ditambahkan
   theme: {
     extend: {
