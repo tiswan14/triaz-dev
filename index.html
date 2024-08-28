@@ -24,38 +24,76 @@
 
 <body>
   <!-- Navbar -->
-  <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
-    <div class="container">
+  <header class="bg-transparent top-0 left-0 w-full flex items-center z-10">
+    <div class="container mx-auto">
       <div class="flex items-center justify-between relative">
-        <div class="px-4">
-          <a href="#home" class="font-bold text-lg text-triatry block py-6"> Logo</a>
+        <div class="px-6">
+          <a
+            href="#home"
+            class="font-bold text-lg text-triatry block py-4 md:text-2xl"
+          >
+            Logo
+          </a>
         </div>
-        <div class="flex items-center px-4">
-          <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
-            <span class="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
-            <span class="hamburger-line transition duration-300 ease-in-out"></span>
-            <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"></span>
+        <div class="flex items-center px-4 sm:px-0">
+          <button
+            id="hamburger"
+            name="hamburger"
+            type="button"
+            class="block md:hidden"
+          >
+            <span
+              class="hamburger-line block transition duration-300 ease-in-out origin-top-left"
+            ></span>
+            <span
+              class="hamburger-line block transition duration-300 ease-in-out"
+            ></span>
+            <span
+              class="hamburger-line block transition duration-300 ease-in-out origin-bottom-left"
+            ></span>
           </button>
 
-          <nav id="navMenu"
-            class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
-            <ul class="block lg:flex ">
+          <nav
+            id="navMenu"
+            class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full md:block md:static md:bg-transparent md:max-w-full md:shadow-none md:rounded-none"
+          >
+            <ul class="block md:flex">
               <li class="group">
-                <a href="./index.html" class="text-base text-black py-2 mx-8  flex group-hover:text-triatry">Beranda</a>
+                <a
+                  class="font-bold border-b-2 border-nav transition-all"
+                  href="index.html"
+                  >Beranda</a
+                >
               </li>
               <li class="group">
-                <a href="./tentangkami.html" class="text-base text-black py-2 mx-8 flex group-hover:text-triatry">Tentang
-                  Kami</a>
+                <a
+                  class="border-b-2 border-transparent hover:border-nav transition-all"
+                  href="tentangkami.html"
+                  >Tentang Kami</a
+                >
               </li>
               <li class="group">
-                <a href="./product.html"
-                  class="text-base text-black py-2 mx-8 flex group-hover:text-triatry">Product</a>
+                <a
+                  class="border-b-2 border-transparent hover:border-nav transition-all"
+                  href="product.html"
+                  >Product</a
+                >
               </li>
               <li class="group">
-                <a href="./fiturungulan.html" class="text-base text-black py-2 mx-8 flex group-hover:text-triatry">Fitur</a>
+
+                <a
+                  class="border-b-2 border-transparent hover:border-nav transition-all"
+                  href="fiturungulan.html
+                "
+                  >Fitur</a
+                >
               </li>
               <li class="group">
-                <a href="#" class="text-base text-black py-2 mx-8 flex group-hover:text-triatry">Kontak</a>
+                <a
+                  class="border-b-2 border-transparent hover:border-nav transition-all"
+                  href="kontak.html"
+                  >Kontak</a
+                >
               </li>
             </ul>
           </nav>
@@ -125,29 +163,54 @@
 
 
   <!-- Let join -->
-  <main class="w-full py-1 bg-triatry flex items-center gap-7 font-delta text-lightf mb-14 -mt-100 ">
-    <div class="text-sm py-2">JOIN WITH US</div>
-    <img src="./img/thinsmooth.svg" alt="" class="w-5">
-    <div class="text-sm py-2">JOIN WITH US</div>
-    <img src="./img/thinsmooth.svg" alt="" class="w-5">
-    <div class="text-sm py-2">JOIN WITH US</div>
+  <main>
+    <div
+      class="container flex items-center justify-center gap-3 max-w-3xl mx-auto bg-triatry mt-2 py-1 md:py-2 text-lightf font-delta text-base md:text-xl lg:text-2xl overflow-x-hidden md:max-w-full"
+      style="white-space: nowrap;"
+    >
+      <section class="flex-shrink-0 min-w-0">
+        <h1 class="truncate">JOIN WITH US</h1>
+      </section>
+      <section class="flex-shrink-0">
+        <img class="w-10" src="img/thinsmooth.svg" alt="" />
+      </section>
+      <section class="flex-shrink-0 min-w-0">
+        <h1 class="truncate">LET'S JOIN WITH US</h1>
+      </section>
+      <section class="flex-shrink-0">
+        <img class="w-10" src="img/thinsmooth.svg" alt="" />
+      </section>
+      <section class="flex-shrink-0 min-w-0">
+        <h1 class="truncate">LET'S JOIN WITH US</h1>
+      </section>
+      <section class="flex-shrink-0">
+        <img class="w-10" src="img/thinsmooth.svg" alt="" />
+      </section>
+      <section class="flex-shrink-0 min-w-0">
+        <h1 class="truncate">LET'S JOIN WITH US</h1>
+      </section>
+      <section class="flex-shrink-0">
+        <img class="w-10" src="img/thinsmooth.svg" alt="" />
+      </section>
+      <section class="flex-shrink-0 min-w-0">
+        <h1 class="truncate">LET'S JOIN WITH</h1>
+      </section>
+    </div>
   </main>
+  
   <!-- Let join -->
 
 
-  <!-- Awal Icons Icons Jumbotron -->
-
-
-  
-  <!-- Akhir Icons Icons Jumbotron -->
 
   <!-- Tentang kami -->
   <main>
+    <div class='container max-w-3xl mx-auto py-5'>
+
     <section class="text-center">
-      <a href="" class="bg-lightf text-triatry w-36 py-1 px-2 rounded-2xl mx-auto font-semibold mb-9 text-md">
+      <a href="" class="bg-lightf text-triatry w-36 py-1 px-2 rounded-2xl mx-auto font-semibold text-md">
         Tentang kami
       </a><br>
-      <div class="m-7 p-12 lg:mx-14">
+      <div class="p-12 lg:mx-14">
         <p class="text-base sm:text-sm md:text-lg">
           Kami adalah <span class="font-semibold">platform edukatif</span> yang
           menyediakan
@@ -163,7 +226,7 @@
           konten <span class='font-bold'>yang relevan dan interaktif.</span>
         </p>
       </div>
-
+    </div>
     </section>
   </main>
   <section class="text-center">
