@@ -1,174 +1,252 @@
 <!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Triaz</title>
+    <link rel="stylesheet" href="./src/output.css" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Triaz</title>
-  <link rel="stylesheet" href="./src/output.css" />
+    <!--Awal  Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Delta+Gothic+One&family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
 
-  <!--Awal  Font -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Delta+Gothic+One&family=Quicksand:wght@300..700&display=swap"
-    rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet" />
+    <!-- Akhir Font -->
 
-  <!-- Akhir Font -->
+    <!-- Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <!-- Icons -->
+  </head>
 
-  <!-- Icons -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
-  <!-- Icons -->
-</head>
+  <body>
+    <!-- Navbar -->
+    <header class="bg-transparent top-0 left-0 w-full flex items-center z-10">
+      <div class="container mx-auto">
+        <div class="flex items-center justify-between relative">
+          <div class="px-6">
+            <a
+              href="#home"
+              class="font-bold text-lg text-triatry block py-4 md:text-2xl"
+            >
+              Logo
+            </a>
+          </div>
+          <div class="flex items-center px-4 sm:px-0">
+            <button
+              id="hamburger"
+              name="hamburger"
+              type="button"
+              class="block md:hidden"
+            >
+              <span
+                class="hamburger-line block transition duration-300 ease-in-out origin-top-left"
+              ></span>
+              <span
+                class="hamburger-line block transition duration-300 ease-in-out"
+              ></span>
+              <span
+                class="hamburger-line block transition duration-300 ease-in-out origin-bottom-left"
+              ></span>
+            </button>
 
-<body>
-  <!-- Navbar -->
-  <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
-    <div class="container">
-      <div class="flex items-center justify-between relative">
-        <div class="px-4">
-          <a href="#" class="font-bold text-lg text-triatry block py-6"> Logo</a>
+            <nav
+              id="navMenu"
+              class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full md:block md:static md:bg-transparent md:max-w-full md:shadow-none md:rounded-none"
+            >
+              <ul class="block md:flex">
+                <li class="group">
+                  <a
+                    class="border-b-2 border-transparent hover:border-nav transition-all"
+                    href="index.html"
+                    >Beranda</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    class="border-b-2 border-transparent hover:border-nav transition-all"
+                    href="tentangkami.html"
+                    >Tentang Kami</a
+                  >
+                  <!-- <div class='w-10 h-[3px] md:bg-nav ml-9 -mt-[10px] hover:text-black rounded-lg'></div> -->
+                </li>
+                <li class="group">
+                  <a
+                    class="font-bold border-b-2 border-nav transition-all"
+                    href="product.html"
+                    >Product</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    class="border-b-2 border-transparent hover:border-nav transition-all"
+                    href="fiturungulan.html
+                  "
+                    >Fitur</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    class="border-b-2 border-transparent hover:border-nav transition-all"
+                    href="kontak.html"
+                    >Kontak</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
         </div>
-        <div class="flex items-center px-4">
-          <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
-            <span class="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
-            <span class="hamburger-line transition duration-300 ease-in-out"></span>
-            <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"></span>
-          </button>
+      </div>
+    </header>
 
-          <nav id="navMenu"
-            class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
-            <ul class="block lg:flex ">
-              <li class="group">
-                <a href="./index.html" class="text-base text-black py-2 mx-8  flex group-hover:text-triatry">Beranda</a>
-              </li>
-              <li class="group">
-                <a href="./tentangkami.html"
-                  class="text-base text-black py-2 mx-8 flex group-hover:text-triatry">Tentang
-                  Kami</a>
-              </li>
-              <li class="group">
-                <a href="./product.html"
-                  class="text-base font-bold border-b-2 border-nav transition-all text-black py-2 mx-8 flex group-hover:text-triatry">Product</a>
-              </li>
-              <li class="group">
-                <a href="./fiturungulan.html"
-                  class="text-base text-black py-2 mx-8 flex group-hover:text-triatry">Fitur</a>
-              </li>
-              <li class="group">
-                <a href="./kontak.html" class="text-base text-black py-2 mx-8 flex group-hover:text-triatry">Kontak</a>
-              </li>
-            </ul>
-          </nav>
+    <!-- End Navbar -->
+    <!-- Awal jumbotron -->
+    <main>
+      <div class="container max-w-3xl mx-auto pt-4 md:max-w-full">
+          <h1
+            class="font-delta text-3xl md:text-4xl text-center tracking-wide"
+          >
+            Cari industri yang <br />kamu inginkan.
+          </h1>
+          <img src="img/hero-product.png" alt="" />
+        </section>
+      </div>
+    </main>
+
+    <!-- Akhir Jumotron -->
+
+    <!-- Let join -->
+    <main>
+      <div
+        class="container flex items-center justify-center gap-3 max-w-3xl mx-auto bg-triatry mt-2 py-1 md:py-2 text-lightf font-delta text-base md:text-xl lg:text-2xl overflow-x-hidden md:max-w-full"
+        style="white-space: nowrap;"
+      >
+        <section class="flex-shrink-0 min-w-0">
+          <h1 class="truncate">JOIN WITH US</h1>
+        </section>
+        <section class="flex-shrink-0">
+          <img class="w-10" src="img/thinsmooth.svg" alt="" />
+        </section>
+        <section class="flex-shrink-0 min-w-0">
+          <h1 class="truncate">LET'S JOIN WITH US</h1>
+        </section>
+        <section class="flex-shrink-0">
+          <img class="w-10" src="img/thinsmooth.svg" alt="" />
+        </section>
+        <section class="flex-shrink-0 min-w-0">
+          <h1 class="truncate">LET'S JOIN WITH US</h1>
+        </section>
+        <section class="flex-shrink-0">
+          <img class="w-10" src="img/thinsmooth.svg" alt="" />
+        </section>
+        <section class="flex-shrink-0 min-w-0">
+          <h1 class="truncate">LET'S JOIN WITH US</h1>
+        </section>
+        <section class="flex-shrink-0">
+          <img class="w-10" src="img/thinsmooth.svg" alt="" />
+        </section>
+        <section class="flex-shrink-0 min-w-0">
+          <h1 class="truncate">LET'S JOIN WITH</h1>
+        </section>
+      </div>
+    </main>
+    
+
+    <!-- Let join -->
+
+    <!--  -->
+    <!-- <main>
+      <div class="container max-w-3xl mx-auto flex flex-col mt-5 px-2">
+        <section class="flex items-center px-2">
+          <div class="bg-triatry text-lightf px-8 py-1 text-sm font-bold">
+            <h1>Project</h1>
+          </div>
+          <div class="bg-bg2 text-triatry px-8 py-1 text-sm font-bold">
+            <h1>Forum Diskusi</h1>
+          </div>
+        </section>
+        <section>
+          <div class="flex text-triatry font-semibold bg-bg2">
+            <div>
+              <h1>Populer |</h1>
+            </div>
+            <div class="flex">
+              <h1 class="p-40">Teknik Informatika</h1>
+              <h1>Manajemen</h1>
+              <h1>Keuangan</h1>
+              <h1>Pemasaran</h1>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main> -->
+
+    <!--  -->
+
+    <!-- Pilihan Product -->
+    <div>
+      <div class="container mx-auto flex justify-center max-w-3xl md:max-w-full">
+        <div class="px-4 py-6 md:w-[90%]">
+          <!-- <a href=""> -->
+          <img src="img/TI.png" alt="" />
+          <!-- </a> -->
         </div>
       </div>
     </div>
-  </header>
-  <!-- End Navbar -->
 
-
-
-
-  <!-- Awal jumbotron -->
-  <main class="">
-    <div class="container max-w-3xl mx-auto pt-4 md:max-w-full">
-      <h1 class="font-delta text-3xl md:text-4xl text-center tracking-wide my-auto">
-        Cari industri yang <br />kamu inginkan.
-      </h1>
-      <img src="img/hero-product.png" alt="" class="relative" />
-      </section>
+    <!-- Pilihan Product -->
+    <!-- Trend Industri -->
+    <div>
+      <div class="container flex justify-center max-w-3xl mx-auto px-4 md:max-w-full">
+        <div class="bg-triatry flex justify-between items-center px-4 rounded-2xl text-white py-6 w-full md:w-[90%]">
+          <div>
+            <h2 class="font-bold text-lg md:text-2xl">Trend Industri</h2>
+          </div>
+          <div class="flex">
+            <button class="bg-lightf text-triatry font-bold px-4 rounded-2xl text-sm py-2 flex items-center">
+              <span>Pelajari industri ini</span>
+              <i class="fas fa-arrow-right pl-2"></i>
+            </button>
+          </div>
+        </div>
+      </div>
     </div>
-  </main>
+    
 
-  <!-- Akhir Jumotron -->
+    <!-- Trend Industri -->
 
-  <!-- Let join -->
-  <main>
-    <div
-      class="container flex items-center justify-center gap-3 max-w-3xl mx-auto bg-triatry mt-2 py-1 md:py-2 text-lightf font-delta text-base md:text-xl lg:text-2xl overflow-x-hidden md:max-w-full"
-      style="white-space: nowrap;">
-      <section class="flex-shrink-0 min-w-0">
-        <h1 class="truncate">JOIN WITH US</h1>
-      </section>
-      <section class="flex-shrink-0">
-        <img class="w-10" src="img/thinsmooth.svg" alt="" />
-      </section>
-      <section class="flex-shrink-0 min-w-0">
-        <h1 class="truncate">LET'S JOIN WITH US</h1>
-      </section>
-      <section class="flex-shrink-0">
-        <img class="w-10" src="img/thinsmooth.svg" alt="" />
-      </section>
-      <section class="flex-shrink-0 min-w-0">
-        <h1 class="truncate">LET'S JOIN WITH US</h1>
-      </section>
-      <section class="flex-shrink-0">
-        <img class="w-10" src="img/thinsmooth.svg" alt="" />
-      </section>
-      <section class="flex-shrink-0 min-w-0">
-        <h1 class="truncate">LET'S JOIN WITH US</h1>
-      </section>
-      <section class="flex-shrink-0">
-        <img class="w-10" src="img/thinsmooth.svg" alt="" />
-      </section>
-      <section class="flex-shrink-0 min-w-0">
-        <h1 class="truncate">LET'S JOIN WITH</h1>
-      </section>
-    </div>
-  </main>
-
-
-  <!-- Let join -->
-
-  <!--  -->
-  <div class="justify-center text-center">
-    <div class="">Project</div>
-  </div>
-
-  <!--  -->
-
-  <!-- Pilihan Product -->
-  <div class="flex flex-col items-center">
-    <!-- Div untuk gambar -->
-    <div class="flex justify-center items-center text-center w-96 h-full">
-      <img src="./img/TI.png" alt="" class="w-96">
-    </div>
-  
-    <!-- Div untuk teks -->
-    <div class="w-96 bg-triatry text-white mt-4 py-4 px-7 rounded-xl">
-      <h1 class="font-bold">Trend Industri</h1>
-    </div>
-  </div>
-
-  <div class="flex mx-auto w-96 mt-4 gap-2">
-    <img src="./img/Hukum.png" alt="" class=" h-32 object-cover">
-    <img src="./img/maangement.png" alt="" class="h-32 w-full object-cover">
-  </div>
-</div>
-
-
-  <!-- <div class="flex items-center justify-between bg-triatry mt-10 w-full h-16 py-5 px-6">
-        <div class="font-quicksand font-bold text-lg text-white">
-            Trend Industri
+    <!-- Pilihan Produk -->
+    <div>
+      <div class="container flex justify-center mx-auto max-w-3xl px-4 gap-5 py-5 md:max-w-full md:w-[90%]">
+        <div>
+          <img src="img/project-hukum.png" alt="" />
         </div>
         <div>
           <img src="img/project-manajemen.png" alt="" srcset="" />
         </div>
       </div>
-    </div> -->
-  <!-- Footet -->
-  <!-- <footer>
+    </div>
+    <!-- Footet -->
+    <footer>
       <div class="container bg-triatry max-w-3xl mx-auto md:max-w-full">
         <p
-          class="text-sm md:text-[15px] font-semibold text-center text-white py-2 w-full "
+          class="text-sm md:text-[15px] font-semibold text-center text-white py-2 md:py-[15px] w-full "
         >
           &copy; 2024 Triaz Dev. All rights reserved.
         </p>
       </div>
-    </footer> -->
-  <!-- Footet -->
+    </footer>
+    <!-- Footet -->
 
-  <script src="./js/index.js"></script>
-</body>
-
+    <script src="./js/index.js"></script>
+  </body>
 </html>

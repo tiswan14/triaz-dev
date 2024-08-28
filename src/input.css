@@ -84,3 +84,13 @@ ul li a {
 .nav-text {
   @apply text-sm md:text-base;
 }
+
+/* Page kontak */
+
+.container-contact {
+  @apply max-w-3xl md:max-w-6xl mx-auto text-center px-4 p-8;
+}
+
+.card-contact {
+  @apply bg-bg2 py-4 rounded-lg mb-3 pr-3 text-sm px-6 flex justify-between items-center text-left;
+}
