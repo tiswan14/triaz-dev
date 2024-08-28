@@ -7,6 +7,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Triaz</title>
   <link rel="stylesheet" href="./src/output.css" />
+  <!-- AOS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <!-- AOS -->
 
 
   <!--Awal  Font -->
@@ -24,76 +27,38 @@
 
 <body>
   <!-- Navbar -->
-  <header class="bg-transparent top-0 left-0 w-full flex items-center z-10">
-    <div class="container mx-auto">
+  <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
+    <div class="container">
       <div class="flex items-center justify-between relative">
-        <div class="px-6">
-          <a
-            href="#home"
-            class="font-bold text-lg text-triatry block py-4 md:text-2xl"
-          >
-            Logo
-          </a>
+        <div class="px-4">
+          <a href="#home" class="font-bold text-lg text-triatry block py-6"> Logo</a>
         </div>
-        <div class="flex items-center px-4 sm:px-0">
-          <button
-            id="hamburger"
-            name="hamburger"
-            type="button"
-            class="block md:hidden"
-          >
-            <span
-              class="hamburger-line block transition duration-300 ease-in-out origin-top-left"
-            ></span>
-            <span
-              class="hamburger-line block transition duration-300 ease-in-out"
-            ></span>
-            <span
-              class="hamburger-line block transition duration-300 ease-in-out origin-bottom-left"
-            ></span>
+        <div class="flex items-center px-4">
+          <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
+            <span class="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
+            <span class="hamburger-line transition duration-300 ease-in-out"></span>
+            <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"></span>
           </button>
 
-          <nav
-            id="navMenu"
-            class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full md:block md:static md:bg-transparent md:max-w-full md:shadow-none md:rounded-none"
-          >
-            <ul class="block md:flex">
+          <nav id="navMenu"
+            class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
+            <ul class="block lg:flex ">
               <li class="group">
-                <a
-                  class="font-bold border-b-2 border-nav transition-all"
-                  href="index.html"
-                  >Beranda</a
-                >
+                <a href="#"
+                  class="text-base font-bold border-b-2 border-nav transition-all text-black py-2 mx-8  flex group-hover:text-triatry">Beranda</a>
               </li>
               <li class="group">
-                <a
-                  class="border-b-2 border-transparent hover:border-nav transition-all"
-                  href="tentangkami.html"
-                  >Tentang Kami</a
-                >
+                <a href="#" class="text-base text-black py-2 mx-8 flex group-hover:text-triatry">Tentang
+                  Kami</a>
               </li>
               <li class="group">
-                <a
-                  class="border-b-2 border-transparent hover:border-nav transition-all"
-                  href="product.html"
-                  >Product</a
-                >
+                <a href="#" class="text-base text-black py-2 mx-8 flex group-hover:text-triatry">Product</a>
               </li>
               <li class="group">
-
-                <a
-                  class="border-b-2 border-transparent hover:border-nav transition-all"
-                  href="fiturungulan.html
-                "
-                  >Fitur</a
-                >
+                <a href="#" class="text-base text-black py-2 mx-8 flex group-hover:text-triatry">Fitur</a>
               </li>
               <li class="group">
-                <a
-                  class="border-b-2 border-transparent hover:border-nav transition-all"
-                  href="kontak.html"
-                  >Kontak</a
-                >
+                <a href="#" class="text-base text-black py-2 mx-8 flex group-hover:text-triatry">Kontak</a>
               </li>
             </ul>
           </nav>
@@ -119,55 +84,20 @@
         </div>
       </div>
 
-      <!-- Awal Icons -->
-      <!-- <img src="./img/HTML.png" alt="" class="relative w-6 -top-16 -right-80  md:w-10 md:right-[-800px] md:top-[-100px]" >
-      <img src="./img/akutansi.png" alt="" class="relative w-6 -top-60 -right-80 md:w-10 md:right-[-700px] md:top-[-250px]" >
-      <img src="./img/hukum.png" alt="" class="relative w-6 -top-48 -right-14 md:w-10 -r" >
-      <img src="./img/uiux.png" alt="" class="relative w-6 -top-28 -right-16 md:w-10 -r" >
-  -->
-      
-      <!-- Akhir Icons -->
     </div>
   </div>
 
-  <!-- Awal Jumbotron -->
-  <!-- <div class="max-w-full h-72 border-2 border-slate-500 flex items-center justify-center overflow-hidden "> -->
-  <!-- Awal Icons icons -->
-  <!-- <img src="./img/C++.png" alt="" class="absolute right-10">
-    <img src="./img/HTML.png" alt="" class="absolute left-10 top-8"> -->
-  <!-- Akhir Icons icons -->
-  <!-- <h1 class="absolute -mt-14 whitespace-pre-line text-3xl text-center font-delta "><span
-        class="underline decoration-triatry ">Gali potensi</span> di
-      berbagai industri
-    </h1>
-    <div class="absolute text-lg mt-[80px]"><span class="text-[10px] font-bold">Manfaatkan masa kini untuk menunjang
-        kesuksesan di masa depan.</span></div>
-
-    <div class="h-96 w-96 border-2 border-slate-400 rounded-full flex items-center justify-center">
-      <div class="h-[300px] w-[300px] border-2 border-slate-400 rounded-full flex items-center justify-center">
-        <div class="h-[200px] w-[200px] border-2 border-slate-400 rounded-full flex items-center justify-center">
-          <div class="h-[100px] w-[100px] border-2 border-slate-400 rounded-full"></div>
-        </div>
-      </div>
-    </div>
-  </div>
-  </div>
-  </div>
-  </div>
-  </div>
-  </div> -->
-  </div>
+  <!-- </div> -->
   <!-- Akhir Jumbotron -->
 
- 
+
 
 
   <!-- Let join -->
   <main>
     <div
       class="container flex items-center justify-center gap-3 max-w-3xl mx-auto bg-triatry mt-2 py-1 md:py-2 text-lightf font-delta text-base md:text-xl lg:text-2xl overflow-x-hidden md:max-w-full"
-      style="white-space: nowrap;"
-    >
+      style="white-space: nowrap;">
       <section class="flex-shrink-0 min-w-0">
         <h1 class="truncate">JOIN WITH US</h1>
       </section>
@@ -197,7 +127,7 @@
       </section>
     </div>
   </main>
-  
+
   <!-- Let join -->
 
 
@@ -206,26 +136,26 @@
   <main>
     <div class='container max-w-3xl mx-auto py-5'>
 
-    <section class="text-center">
-      <a href="" class="bg-lightf text-triatry w-36 py-1 px-2 rounded-2xl mx-auto font-semibold text-md">
-        Tentang kami
-      </a><br>
-      <div class="p-12 lg:mx-14">
-        <p class="text-base sm:text-sm md:text-lg">
-          Kami adalah <span class="font-semibold">platform edukatif</span> yang
-          menyediakan
-          <span class="font-semibold">sumber belajar dan
-            sumber daya profesional untuk berbagai industri.</span>
-          Fitur kami meliputi
-          deskripsi industri, simulasi proyek, forum diskusi, mentorship online,
-          resource
-          hub, katalog perusahaan, dan pembuatan portofolio otomatis. Kami
-          membantu pengguna
-          <span class="font-bold">meningkatkan keterampilan dan karirnya</span>
-          dengan
-          konten <span class='font-bold'>yang relevan dan interaktif.</span>
-        </p>
-      </div>
+      <section class="text-center">
+        <a href="" class="bg-lightf text-triatry w-36 py-1 px-2 rounded-2xl mx-auto font-semibold text-md">
+          Tentang kami
+        </a><br>
+        <div class="p-12 lg:mx-14" data-aos="fade-up">
+          <p class="text-base sm:text-sm md:text-lg">
+            Kami adalah <span class="font-semibold">platform edukatif</span> yang
+            menyediakan
+            <span class="font-semibold">sumber belajar dan
+              sumber daya profesional untuk berbagai industri.</span>
+            Fitur kami meliputi
+            deskripsi industri, simulasi proyek, forum diskusi, mentorship online,
+            resource
+            hub, katalog perusahaan, dan pembuatan portofolio otomatis. Kami
+            membantu pengguna
+            <span class="font-bold">meningkatkan keterampilan dan karirnya</span>
+            dengan
+            konten <span class='font-bold'>yang relevan dan interaktif.</span>
+          </p>
+        </div>
     </div>
     </section>
   </main>
@@ -243,7 +173,7 @@
 
 
     <!-- Awal fitur -->
-    <div class="container mt-44 block mx-auto text-center md:justify-center">
+    <div class="container mt-44 block mx-auto text-center md:justify-center" data-aos="zoom-in-up">
       <h1 class="mb-4 text-2xl font-quicksand font-bold lg:text-4xl"><span class="bg-triatry text-white px-2">Apa saja
           fitur</span>
         yang kami <br> berikan?</h1>
@@ -252,7 +182,8 @@
       <div class="md:flex md:items-center md:justify-center lg:flex lg:items-center lg:justify-center">
         <!-- Bagian Gambar -->
         <div
-          class="bg-slate-600 rounded-full overflow-hidden mx-auto my-4 lg:mx-4 md:mx-9 lg:w-[12rem] lg:h-[12rem] w-40 h-40 h-fitur">
+          class="bg-slate-600 rounded-full overflow-hidden mx-auto my-4 lg:mx-4 md:mx-9 lg:w-[12rem] lg:h-[12rem] w-40 h-40 h-fitur"
+          data-aos="zoom-in">
           <img src="./img/fitur.jpg" alt="" class="w-full h-full object-cover rounded-full">
         </div>
 
@@ -260,26 +191,30 @@
         <div
           class="flex flex-col mt-10 pr-6 items-center p-7 lg:mt-0 lg:pr-0 lg:items-center lg:grid lg:grid-cols-2 lg:gap-4">
           <a href=""
-            class="bg-white py-4 w-full max-w-sm rounded-3xl font-bold shadow-lg text-center flex items-center mb-4 lg:mb-0 lg:ml-9 h-fitur">
+            class="bg-white py-4 w-full max-w-sm rounded-3xl font-bold shadow-lg text-center flex items-center mb-4 lg:mb-0 lg:ml-9 h-fitur"
+            data-aos="zoom-in-right">
             <div class="ml-5"><img src="./img/fleksibel.png" alt="Logo"></div>
             <span class="block ml-12 lg:ml-5">Akses Fleksibel<br><span class="text-[12px] font-normal">Buka kapan saja
                 dan dimana saja</span></span>
           </a>
 
           <a href=""
-            class="bg-white py-4 w-full max-w-sm rounded-3xl font-bold shadow-lg text-center flex items-center mb-4 lg:mb-0 lg:ml-9 h-fitur">
+            class="bg-white py-4 w-full max-w-sm rounded-3xl font-bold shadow-lg text-center flex items-center mb-4 lg:mb-0 lg:ml-9 h-fitur"
+            data-aos="zoom-in-left">
             <div class="ml-5"><img src="./img/materi.png" alt="Logo"></div>
             <span class="block ml-12 lg:ml-7">Materi Berkualitas<br><span class="text-[12px] font-normal">Dirancang oleh
                 para ahlinya</span></span>
           </a>
           <a href=""
-            class="bg-white py-4 w-full max-w-sm rounded-3xl font-bold shadow-lg text-center flex items-center mb-4 lg:mb-0 h-fitur">
+            class="bg-white py-4 w-full max-w-sm rounded-3xl font-bold shadow-lg text-center flex items-center mb-4 lg:mb-0 h-fitur"
+            data-aos="zoom-in-right">
             <div class="ml-5"><img src="./img/mentorsip.png" alt="Logo"></div>
             <span class="block ml-12 lg:ml-4">Mentorship Online<br><span class="text-[12px] font-normal">Dapatkan
                 bimbingan professional</span></span>
           </a>
           <a href=""
-            class="bg-white py-4 w-full max-w-sm rounded-3xl font-bold shadow-lg text-center flex items-center mb-4 lg:mb-0 h-fitur">
+            class="bg-white py-4 w-full max-w-sm rounded-3xl font-bold shadow-lg text-center flex items-center mb-4 lg:mb-0 h-fitur"
+            data-aos="zoom-in-left">
             <div class="ml-5"><img src="./img/Frame 4.png" alt="Logo"></div>
             <span class="block ml-12 lg:ml-7">Sertifikat Resmi<br><span class="text-[12px] font-normal">Kumpulkan
                 sebanyak mungkin</span></span>
@@ -296,7 +231,7 @@
     <!-- Akhir Fitur -->
 
     <!-- Awal Footer -->
-    <div class="container bg-triatry mt-36 max-w-full pt-6 pb-2 py-11">
+    <div class="container bg-triatry mt-36 max-w-full pt-6 pb-2 py-11" data-aos="zoom-in-up">
       <section>
         <h1 class="font-delta text-white text-center text-sm mb-7 md:text-lg lg:text-2xl">Pelajari berbagai industri
           kami langsung <br>dari
@@ -309,26 +244,10 @@
     </div>
     <!-- Akhir Footer -->
 
-    <div class=" mt-20 p-6 flex">
-      <section>
-        <img src="./img/hero-tentangkami.png" alt="" class="max-w-40 ">
-        <h1 class="mr-auto text-left mt-2 text-sm font-semibold">Manfaatkan masa kini untuk menunjang kesuksesan dimasa
-          depan</h1>
-      </section>
-      <!-- Kanan -->
-      <section class="items-end bg-triatry h-[150px] w-60 ml-6 rounded-2xl">
-        <form action="" class="p-2">
-          <h1 class="text-white font-semibold ml-1 w-40 text-left">Kirim pesan.</h1>
-          <input type="text" class="w-40 pr-2 mt-1 rounded-lg pl-2 text-sm" placeholder="Nama">
-          <input type="email" class="w-40 pr-2 mt-1 rounded-lg pl-2 text-sm" placeholder="Alamat Email">
-          <input type="text" class="w-40 pr-2 mt-1 rounded-lg pl-2 text-sm" placeholder="Pesan">
-        </form>
-      </section>
 
-    </div>
     <div class="mb-60 mt-10">
       <h1 class="text-left ml-6 font-semibold">Follow Akun resmi kami:</h1>
-      <div class="flex ml-8">
+      <div class="flex ml-8" data-aos="fade-up" data-aos-duration="1000">
         <a href="" class="mr-6 mt-3"><img src="./img/Facebook.png" alt=""></a>
         <a href="" class="mr-6 mt-3"><img src="./img/Instagram.png" alt=""></a>
         <a href="" class="mr-6 mt-3"><img src="./img/Tik Tok.png" alt=""></a>
@@ -342,7 +261,10 @@
 
 
 
-
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script src="./js/index.js"></script>
 </body>
 
