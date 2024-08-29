@@ -7,6 +7,8 @@ module.exports = {
     './src/**/*.js',
     './product.html',
     './projectUIUX.html',
+    './projectBackend.html',
+    './projectFrontend.html.html.',
   ], // Tanda kutip penutup yang hilang sudah ditambahkan
   theme: {
     extend: {

@@ -660,11 +660,6 @@ html {
   margin-bottom: 1rem;
 }
 
-.my-5{
-  margin-top: 1.25rem;
-  margin-bottom: 1.25rem;
-}
-
 .mb-1{
   margin-bottom: 0.25rem;
 }
@@ -725,6 +720,10 @@ html {
   margin-top: 6rem;
 }
 
+.mt-28{
+  margin-top: 7rem;
+}
+
 .mt-3{
   margin-top: 0.75rem;
 }
@@ -749,20 +748,16 @@ html {
   margin-top: 1.75rem;
 }
 
-.mt-96{
-  margin-top: 24rem;
-}
-
-.mt-\[1rem\]{
-  margin-top: 1rem;
+.mt-8{
+  margin-top: 2rem;
 }
 
 .mt-9{
   margin-top: 2.25rem;
 }
 
-.mt-8{
-  margin-top: 2rem;
+.mt-\[1rem\]{
+  margin-top: 1rem;
 }
 
 .block{
@@ -903,10 +898,6 @@ html {
 
 .origin-top-left{
   transform-origin: top left;
-}
-
-.transform{
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .grid-cols-1{
@@ -1199,18 +1190,12 @@ html {
   padding-bottom: 2rem;
 }
 
-.py-36{
-  padding-top: 9rem;
-  padding-bottom: 9rem;
-}
-
-.py-10{
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
-}
-
 .pb-4{
   padding-bottom: 1rem;
+}
+
+.pb-7{
+  padding-bottom: 1.75rem;
 }
 
 .pb-8{
@@ -1245,20 +1230,12 @@ html {
   padding-top: 1rem;
 }
 
-.pt-8{
-  padding-top: 2rem;
-}
-
-.pb-10{
-  padding-bottom: 2.5rem;
-}
-
-.pb-7{
-  padding-bottom: 1.75rem;
-}
-
 .pt-5{
   padding-top: 1.25rem;
+}
+
+.pt-8{
+  padding-top: 2rem;
 }
 
 .text-center{
@@ -1388,12 +1365,6 @@ html {
 
 .transition-all{
   transition-property: all;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
-}
-
-.transition-transform{
-  transition-property: transform;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
 }
@@ -1558,28 +1529,6 @@ ul li a:hover{
   color: #dddd;
 }
 
-.hover\:-translate-y-2:hover{
-  --tw-translate-y: -0.5rem;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.hover\:translate-y-1:hover{
-  --tw-translate-y: 0.25rem;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.hover\:scale-110:hover{
-  --tw-scale-x: 1.1;
-  --tw-scale-y: 1.1;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.hover\:scale-105:hover{
-  --tw-scale-x: 1.05;
-  --tw-scale-y: 1.05;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
 .hover\:bg-orange-700:hover{
   --tw-bg-opacity: 1;
   background-color: rgb(194 65 12 / var(--tw-bg-opacity));
@@ -1592,12 +1541,6 @@ ul li a:hover{
 
 .hover\:bg-opacity-80:hover{
   --tw-bg-opacity: 0.8;
-}
-
-.hover\:shadow-2xl:hover{
-  --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
-  --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
 .focus\:border-lightf:focus{
@@ -1927,12 +1870,12 @@ ul li a:hover{
     margin-top: 3rem;
   }
 
-  .lg\:mt-4{
-    margin-top: 1rem;
-  }
-
   .lg\:mt-14{
     margin-top: 3.5rem;
+  }
+
+  .lg\:mt-4{
+    margin-top: 1rem;
   }
 
   .lg\:block{
