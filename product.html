@@ -22,8 +22,8 @@
 </head>
 
 <body>
-   <!-- Navbar -->
-   <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
+  <!-- Navbar -->
+  <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
     <div class="container">
       <div class="flex items-center justify-between relative">
         <div class="px-4">
@@ -44,14 +44,17 @@
                   class="text-base  text-black py-2 mx-8  flex group-hover:text-triatry">Beranda</a>
               </li>
               <li class="group">
-                <a href="./tentangkami.html" class="text-base font-bold border-b-2 border-nav transition-all text-black py-2 mx-8 flex group-hover:text-triatry">Tentang
+                <a href="./tentangkami.html"
+                  class="text-base  transition-all text-black py-2 mx-8 flex group-hover:text-triatry">Tentang
                   Kami</a>
               </li>
               <li class="group">
-                <a href="./product.html" class="text-base text-black py-2 mx-8 flex group-hover:text-triatry">Product</a>
+                <a href="./product.html"
+                  class="text-base font-bold border-b-2 border-triatry text-triatry py-2 mx-8 flex group-hover:text-triatry">Product</a>
               </li>
               <li class="group">
-                <a href="./fiturungulan.html" class="text-base text-black py-2 mx-8 flex group-hover:text-triatry">Fitur</a>
+                <a href="./fiturungulan.html"
+                  class="text-base text-black py-2 mx-8 flex group-hover:text-triatry">Fitur</a>
               </li>
               <li class="group">
                 <a href="./kontak.html" class="text-base text-black py-2 mx-8 flex group-hover:text-triatry">Kontak</a>
@@ -65,23 +68,20 @@
   <!-- End Navbar -->
 
 
-  <!-- Awal jumbotron -->
-  <!-- <main>
-    <div class="container max-w-full mx-auto pt-4  bg-slate-400">
-      <h1 class="font-delta text-3xl md:text-4xl text-center tracking-wide">
-        Cari industri yang <br />kamu inginkan.
-      </h1>
-      <img src="img/hero-product.png" alt="" class="max-w-full"/>
-      </section>
+  <!-- Awal Jumbotron -->
+  <div class="relative mt-20 w-full">
+    <div class="bg-cover bg-center w-full max-w-full lg:h-[29rem] md:h-[20rem] h-56 min-h-full" style="background-image: url(./img/hero-product.png); background-size: cover;">
+      <div class="text-center pt-8">
+        <h1 class="font-bold font-delta lg:text-6xl md:text-4xl text-2xl">Cari industri yang <br> kamu <span class="underline decoration-triatry">inginkan.</span></h1>
+      </div>
     </div>
-  </main> -->
-  <div class="">
-
   </div>
-  <!-- Akhir Jumotron -->
+  <!-- Akhir Jumbotron -->
+
+
 
   <!-- Let join -->
-  <main class="mt-[5rem]">
+  <main class="mt-[1rem]">
     <div
       class="container flex items-center justify-center gap-3 max-w-3xl mx-auto bg-triatry mt-2 py-1 md:py-2 text-lightf font-delta text-base md:text-xl lg:text-2xl overflow-x-hidden md:max-w-full"
       style="white-space: nowrap;">
@@ -114,27 +114,35 @@
       </section>
     </div>
   </main>
+  <!-- Akhir Lets Join  -->
+
 
   <!-- Awal Pemilihan -->
-  <div class=" justify-center  my-5 mx-5">
-    <h1 class="mr-4 self-center text-triatry">Populer |</h1>
-    <a href="" class="mr-2 py-2 px-5 bg-triatry text-white text-xs rounded-full self-center text-center ">Teknik
-      Informatika</a>
-    <a href="" class="mr-2 py-2 px-6 bg-white border border-triatry text-triatry text-xs rounded-full ">Managemen</a>
-    <a href="" class="mr-2 py-2 px-6 bg-white border border-triatry text-triatry text-xs rounded-full ">Hukum</a>
+  <div class="flex flex-col sm:flex-row justify-center my-10 mx-5 md:flex px-3 sm:px-5">
+    <h1 class="mb-2 sm:mb-0 sm:mr-4 self-center text-triatry">Populer |</h1>
+    <a href="" class="mb-2 sm:px-9 mr-2 py-2 px-5 bg-triatry text-white text-base rounded-full text-center">
+      <h1>Teknik Informatika</h1>
+    </a>
+    <a href=""
+      class="mb-2 sm:mb-0 sm:mr-2 py-2 px-6 bg-white border border-triatry text-triatry text-base rounded-full text-center">Manajemen</a>
+    <a href=""
+      class="py-2 px-6 bg-white border border-triatry text-triatry text-base rounded-full text-center">Hukum</a>
   </div>
   <!-- Akhir Pemilihan -->
 
+
   <!-- Pilihan Product -->
-  <div>
-    <div class="container mx-auto flex justify-center max-w-3xl md:max-w-full">
-      <div class="px-4 py-6 md:w-[90%]">
-        <!-- <a href=""> -->
-        <img src="img/TI.png" alt="" />
-        <!-- </a> -->
+  <a href="">
+    <div>
+      <div class="container mx-auto flex justify-center max-w-3xl md:max-w-full">
+        <div class="px-4 py-6 md:w-[90%]">
+          <!-- <a href=""> -->
+          <img src="img/TI.png" alt="" />
+          <!-- </a> -->
+        </div>
       </div>
     </div>
-  </div>
+  </a>
 
   <!-- Pilihan Product -->
   <!-- Trend Industri -->
@@ -159,14 +167,18 @@
 
   <!-- Pilihan Produk -->
   <div>
-    <div class="container flex justify-center mx-auto max-w-3xl px-4 gap-5 py-5 md:max-w-full md:w-[90%]">
-      <div>
-        <img src="img/project-hukum.png" alt="" />
-      </div>
+    <a href="">
+      <div class="container flex justify-center mx-auto max-w-3xl px-4 gap-5 py-5 md:max-w-full md:w-[90%]">
+        <div>
+          <img src="img/project-hukum.png" alt="" />
+        </div>
+    </a>
+    <a href="">
       <div>
         <img src="img/project-manajemen.png" alt="" srcset="" />
       </div>
-    </div>
+    </a>
+  </div>
   </div>
   <!-- Footet -->
   <footer>

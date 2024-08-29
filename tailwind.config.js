@@ -6,6 +6,7 @@ module.exports = {
     './kontak.html',
     './src/**/*.js',
     './product.html',
+    './projectUIUX.html',
   ], // Tanda kutip penutup yang hilang sudah ditambahkan
   theme: {
     extend: {
