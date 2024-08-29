@@ -21,86 +21,51 @@
     <!-- CDN Icons -->
   </head>
   <body>
-    <!-- Navbar -->
-    <header class="bg-transparent top-0 left-0 w-full flex items-center z-10">
-      <div class="container mx-auto">
-        <div class="flex items-center justify-between relative">
-          <div class="px-6">
-            <a href="#home" class="font-bold text-lg text-triatry block py-4 md:text-2xl">
-              Logo
-            </a>
-          </div>
-          <div class="flex items-center px-6">
-            <button
-              id="hamburger"
-              name="hamburger"
-              type="button"
-              class="block md:hidden"
-            >
-              <span
-                class="hamburger-line block transition duration-300 ease-in-out origin-top-left"
-              ></span>
-              <span
-                class="hamburger-line block transition duration-300 ease-in-out"
-              ></span>
-              <span
-                class="hamburger-line block transition duration-300 ease-in-out origin-bottom-left"
-              ></span>
-            </button>
+  <!-- Navbar -->
+  <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
+    <div class="container">
+      <div class="flex items-center justify-between relative">
+        <div class="px-4">
+          <a href="#" class="font-bold text-lg text-triatry block py-6"> Logo</a>
+        </div>
+        <div class="flex items-center px-4">
+          <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
+            <span class="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
+            <span class="hamburger-line transition duration-300 ease-in-out"></span>
+            <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"></span>
+          </button>
 
-            <nav
-              id="navMenu"
-              class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full md:block md:static md:bg-transparent md:max-w-full md:shadow-none md:rounded-none"
-            >
-              <ul class="block md:flex">
-                <li class="group">
-                  <a 
-                    class='border-b-2 border-transparent hover:border-nav transition-all'
-                    href="index.html"
-                    >Beranda</a
-                  >
-                  
-                </li>
-                <li class="group">
-                  <a
-                  class='font-bold border-b-2 border-nav transition-all'
-                  href="tentangkami.html"
-                  >Tentang Kami</a
-                  >
-                  <!-- <div class='w-10 h-[3px] md:bg-nav ml-9 -mt-[10px] hover:text-black rounded-lg'></div> -->
-                </li>
-                <li class="group">
-                  <a
-                  class='border-b-2 border-transparent hover:border-nav transition-all'
-                    href="product.html"
-                    >Product</a
-                  >
-                </li>
-                <li class="group">
-                  <a
-                  class='border-b-2 border-transparent hover:border-nav transition-all'
-                    href="fiturungulan.html
-                    "
-                    >Fitur</a
-                  >
-                </li>
-                <li class="group">
-                  <a
-                  class='border-b-2 border-transparent hover:border-nav transition-all'
-                    href="kontak.html"
-                    >Kontak</a
-                  >
-                </li>
-              </ul>
-            </nav>
-          </div>
+          <nav id="navMenu"
+            class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
+            <ul class="block lg:flex ">
+              <li class="group">
+                <a href="./index.html"
+                  class="text-base  text-black py-2 mx-8  flex group-hover:text-triatry">Beranda</a>
+              </li>
+              <li class="group">
+                <a href="./tentangkami.html" class="text-base font-bold border-b-2 border-nav transition-all text-black py-2 mx-8 flex group-hover:text-triatry">Tentang
+                  Kami</a>
+              </li>
+              <li class="group">
+                <a href="./product.html" class="text-base text-black py-2 mx-8 flex group-hover:text-triatry">Product</a>
+              </li>
+              <li class="group">
+                <a href="./fiturungulan.html" class="text-base text-black py-2 mx-8 flex group-hover:text-triatry">Fitur</a>
+              </li>
+              <li class="group">
+                <a href="./kontak.html" class="text-base text-black py-2 mx-8 flex group-hover:text-triatry">Kontak</a>
+              </li>
+            </ul>
+          </nav>
         </div>
       </div>
-    </header>
+    </div>
+  </header>
+  <!-- End Navbar -->
 
-    <!-- End Navbar -->
+  
     <!-- Hero Section -->
-    <main>
+    <main class="mt-20">
       <div
         class="container flex max-w-3xl justify-center items-center px-4 mx-auto md:max-w-5xl mt-10"
       >
