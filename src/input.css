@@ -109,3 +109,5 @@ ul li a {
 .hoveranImg {
   @apply hover:drop-shadow-xl hover:scale-105 transition-transform duration-1000
 }
+
+

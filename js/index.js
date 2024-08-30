@@ -49,3 +49,5 @@ hukum.addEventListener('click', () => {
     event.preventDefault();
     alert("Belum Tersedia Cooming Soonn !!!");
 })
+
+
