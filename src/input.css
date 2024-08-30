@@ -43,6 +43,10 @@
     left: 0px;
   }
 
+  .icon-unduh {
+    width: 10px;
+    height: 10px;
+  }
 }
 .navbar-fixed {
   @apply fixed z-[9999] bg-white bg-opacity-80;
@@ -92,7 +96,10 @@ ul li a {
   @apply bg-bg2 py-4 rounded-lg mb-3 pr-3 text-sm px-6 flex justify-between items-center text-left;
 }
 
-
 .h-fitur {
   @apply hover:shadow-2xl hover:-translate-y-1 hover:scale-105 transition-transform duration-300;
+}
+
+.icon-unduh {
+  @apply border border-red-700;
 }
