@@ -1554,6 +1554,12 @@ ul li a:hover{
   border-color: rgb(185 28 28 / var(--tw-border-opacity));
 }
 
+.icon-unduh{
+  border-width: 1px;
+  --tw-border-opacity: 1;
+  border-color: rgb(185 28 28 / var(--tw-border-opacity));
+}
+
 .placeholder\:text-\[\#dddd\]::-moz-placeholder{
   color: #dddd;
 }
