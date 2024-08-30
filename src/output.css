@@ -660,6 +660,10 @@ html {
   margin-bottom: 1rem;
 }
 
+.-ml-1{
+  margin-left: -0.25rem;
+}
+
 .mb-1{
   margin-bottom: 0.25rem;
 }
@@ -760,18 +764,6 @@ html {
   margin-top: 1rem;
 }
 
-.-ml-4{
-  margin-left: -1rem;
-}
-
-.-ml-2{
-  margin-left: -0.5rem;
-}
-
-.-ml-1{
-  margin-left: -0.25rem;
-}
-
 .block{
   display: block;
 }
@@ -860,6 +852,10 @@ html {
   width: 240px;
 }
 
+.w-\[250px\]{
+  width: 250px;
+}
+
 .w-\[450px\]{
   width: 450px;
 }
@@ -874,30 +870,6 @@ html {
 
 .w-full{
   width: 100%;
-}
-
-.w-16{
-  width: 4rem;
-}
-
-.w-\[200px\]{
-  width: 200px;
-}
-
-.w-\[300px\]{
-  width: 300px;
-}
-
-.w-\[250px\]{
-  width: 250px;
-}
-
-.w-\[220px\]{
-  width: 220px;
-}
-
-.w-\[230px\]{
-  width: 230px;
 }
 
 .min-w-0{
@@ -1070,16 +1042,6 @@ html {
   border-color: rgb(231 69 34 / var(--tw-border-opacity));
 }
 
-.border-red-500{
-  --tw-border-opacity: 1;
-  border-color: rgb(239 68 68 / var(--tw-border-opacity));
-}
-
-.border-red-600{
-  --tw-border-opacity: 1;
-  border-color: rgb(220 38 38 / var(--tw-border-opacity));
-}
-
 .bg-\[\#D9D9D9\]{
   --tw-bg-opacity: 1;
   background-color: rgb(217 217 217 / var(--tw-bg-opacity));
@@ -1165,6 +1127,11 @@ html {
   padding-right: 3rem;
 }
 
+.px-16{
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
 .px-2{
   padding-left: 0.5rem;
   padding-right: 0.5rem;
@@ -1238,21 +1205,6 @@ html {
 .py-8{
   padding-top: 2rem;
   padding-bottom: 2rem;
-}
-
-.px-10{
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
-}
-
-.px-16{
-  padding-left: 4rem;
-  padding-right: 4rem;
-}
-
-.py-7{
-  padding-top: 1.75rem;
-  padding-bottom: 1.75rem;
 }
 
 .pb-4{
@@ -1588,6 +1540,12 @@ ul li a:hover{
   --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
   --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.icon-unduh{
+  border-width: 1px;
+  --tw-border-opacity: 1;
+  border-color: rgb(185 28 28 / var(--tw-border-opacity));
 }
 
 .placeholder\:text-\[\#dddd\]::-moz-placeholder{
