@@ -6,6 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Grow UP | Kontak</title>
   <link rel="stylesheet" href="./src/output.css" />
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- AOS -->
   <!-- Font -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -67,7 +70,7 @@
 
 
   <!-- Hero -->
-  <section class="mt-16">
+  <section class="mt-16" data-aos="fade-up">
     <div class="container-contact">
       <div class="bg-bg2 px-3 py-16 rounded-lg">
         <div>
@@ -98,7 +101,7 @@
 
   <!-- Hero -->
   <!--  -->
-  <section class="md:">
+  <section class="md:" data-aos="fade-up">
     <div class="container-contact">
       <div class="contact mb-8">
         <div class="card-contact">
@@ -130,7 +133,7 @@
         </div>
       </div>
 
-      <div class="pesan">
+      <div class="pesan" data-aos="fade-up">
         <div class="container-contact">
           <div class="bg-bg2 py-16 px-4">
             <h2 class="text-xl font-semibold mb-6 text-center">
@@ -178,6 +181,12 @@
   </footer>
   <!-- Footet -->
 </body>
+
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 <script src="js/index.js"></script>
 
 </html>

@@ -48,8 +48,9 @@
     height: 10px;
   }
   .h-fitur {
-    @apply hover:shadow-2xl hover:-translate-y-1 hover:scale-105 transition-transform duration-300;
+    @apply hover:shadow-2xl hover:-translate-y-1 hover:scale-150 transition-transform duration-300;
   }
+  
 }
 .navbar-fixed {
   @apply fixed z-[9999] bg-white bg-opacity-80;
@@ -103,4 +104,8 @@ ul li a {
 
 .icon-unduh {
   @apply border border-red-700;
+}
+
+.hoveranImg {
+  @apply hover:drop-shadow-xl hover:scale-105 transition-transform duration-1000
 }

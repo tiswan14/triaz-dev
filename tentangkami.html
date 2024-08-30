@@ -6,6 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Grow UP | Tentang Kami</title>
   <link rel="stylesheet" href="./src/output.css" />
+  <!-- AOS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <!-- AOS -->
+
   <!-- Font -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -67,14 +71,14 @@
   <!-- Hero Section -->
   <main class="mt-20">
     <div class="container flex max-w-3xl justify-center items-center px-4 mx-auto md:max-w-5xl mt-10">
-      <section class="flex flex-col gap-3">
+      <section class="flex flex-col gap-3" data-aos="fade-right">
         <img src="img/hero-tentangkami-1.png" alt="" />
         <img src="img/shapes-tentangkami.png" alt="" />
       </section>
-      <section>
+      <section data-aos="fade-down">
         <img src="img/hero-tentangkami-2.png" alt="" class="w-[450px]" />
       </section>
-      <section class="flex flex-col gap-3">
+      <section class="flex flex-col gap-3 bg-slate-600" data-aos="fade-left">
         <img src="img/shapes-tentangkami.png" alt="" />
         <img src="img/hero-tentangkami-3.png" alt="" />
       </section>
@@ -84,7 +88,7 @@
 
   <!-- Tentang kami -->
   <main>
-    <div class="container max-w-xl mx-auto mt-5 md:max-w-full">
+    <div class="container max-w-xl mx-auto sm:my-20 md:max-w-full  my-4" data-aos="zoom-in-up">
       <section>
         <h1 class="text-center font-delta text-xl md:text-2xl lg:text-3xl">
           Tentang Kami
@@ -110,7 +114,7 @@
   <main class="bg-[#D9D9D9]">
     <div class="container w-full mx-auto mt-10 pb-4 md:flex items-center lg:px-[150px]">
       <div class='md:flex items-center justify-center'>
-        <section class="px-[16px] text-center md:text-left">
+        <section class="px-[16px] text-center md:text-left" data-aos="zoom-in-right">
           <h1 class="font-delta text-xl pt-3 md:text-3xl">
             Tim <span class="w-full h-1 bg-triatry">Terbaik</span>
             Kami
@@ -121,10 +125,10 @@
           </p>
         </section>
         <section>
-          <div class="md:flex md:flex-col md:px-2 md:gap-3">
-            <div class="md:flex md:items-center md:gap-10">
-              <div class="flex gap-3 mb-4 md:flex-col md:gap-10">
-                <div class="box flex-shrink-0 md:mt-14">
+          <div class="md:flex md:flex-col md:px-2 md:gap-3" >
+            <div class="md:flex md:items-center md:gap-10" >
+              <div class="flex gap-3 mb-4 md:flex-col md:gap-10" >
+                <div class="box flex-shrink-0 md:mt-14" data-aos="zoom-in">
                   <img src="img/profile-randika.jpg" alt="" />
                   <div class="p-2">
                     <h1 class="font-bold">M. Randika Saputra</h1>
@@ -132,7 +136,7 @@
                   </div>
                 </div>
 
-                <div class="box flex-shrink-0">
+                <div class="box flex-shrink-0" data-aos="zoom-in">
                   <img src="img/profile-tiswan1.jpg" alt="" />
                   <div class="p-2">
                     <h1 class="font-bold">Tiswan</h1>
@@ -141,7 +145,7 @@
                 </div>
               </div>
 
-              <div class="">
+              <div class="" data-aos="zoom-in">
                 <div class="box">
                   <img src="img/profile-azmi.jpg" alt="" />
                   <div class="p-2">
@@ -160,7 +164,8 @@
   <!-- Tim terbaik kami -->
   <!-- Yang dipikirkan orang tentang kami -->
   <main>
-    <div class="container flex flex-col items-center max-w-xl mx-auto mt-10 md:max-w-full">
+    <div class="container flex flex-col items-center max-w-xl mx-auto mt-10 md:max-w-full" data-aos="fade-up"
+    data-aos-duration="1000">
       <section class="">
         <h1 class="font-delta text-xl md:text-3xl ">
           Apa yang orang pikirkan tentang kami
@@ -230,10 +235,11 @@
   <!-- Yang dipikirkan orang tentang kami -->
 
   <!-- Footer  -->
-  <footer class="">
+  <footer class="" data-aos="fade-up">
     <div class="container flex flex-col items-center max-w-xl mx-auto mt-10 md:max-w-full">
       <section class="text-center px-2 pt-2">
-        <h1 class="font-bold text-xl md:text-3xl"><img src="./img/GROW UP LOGO WEBSITE-01 1.png" alt="" class="mx-auto"></h1>
+        <h1 class="font-bold text-xl md:text-3xl"><img src="./img/GROW UP LOGO WEBSITE-01 1.png" alt="" class="mx-auto">
+        </h1>
         <p class="text-[14px] md:text-lg">
           Manfaatkan masa kini untuk menunjang kesuksesan di masa depan.
         </p>
@@ -243,16 +249,16 @@
           <h1 class="text-lightf font-bold text-lg">Kirim Pesan.</h1>
         </div>
         <div class="flex flex-col gap-6 px-5 text-lightf">
-          <input type="text" placeholder="Nama"
+          <input type="text" placeholder="Nama" id="namaAnda"
             class="bg-transparent border-b-[1px] border-[#dddd] placeholder:text-[#dddd] text-sm focus:outline-none focus:placeholder:text-lightf focus:border-lightf" />
 
-          <input type="email" placeholder="Email"
+          <input type="email" placeholder="Email" id="emailAnda"
             class="bg-transparent border-b-[1px] border-[#dddd] placeholder:text-[#dddd] text-sm focus:outline-none focus:placeholder:text-lightf focus:border-lightf" />
 
-          <input type="text" placeholder="Pesan"
+          <input type="text" placeholder="Pesan" id="pesanAnda"
             class="bg-transparent py-8 border-b-[1px] border-[#dddd] placeholder:text-[#dddd] text-sm focus:outline-none focus:placeholder:text-lightf focus:border-lightf" />
 
-          <button class="bg-lightf py-1 rounded-lg font-bold text-triatry hover:bg-slate-100">
+          <button class="bg-lightf py-1 rounded-lg font-bold text-triatry hover:bg-slate-100" id="button">
             Kirim
           </button>
         </div>
@@ -284,6 +290,14 @@
   </footer>
   <!-- Footer  -->
 </body>
+
+
+
+<!-- JS -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 <script src="js/index.js"></script>
 
 </html>

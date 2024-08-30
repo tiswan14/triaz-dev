@@ -6,6 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Grow UP | Product</title>
   <link rel="stylesheet" href="./src/output.css" />
+  <!-- AOS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <!-- AOS -->
 
   <!--Awal  Font -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -70,15 +73,15 @@
 
   <!-- Awal Jumbotron -->
   <div class="relative mt-20 w-full">
-    <div class="bg-cover bg-center w-full max-w-full lg:h-[29rem] md:h-[20rem] h-56 min-h-full" style="background-image: url(./img/hero-product.png); background-size: cover;">
+    <div class="bg-cover bg-center w-full max-w-full lg:h-[29rem] md:h-[20rem] h-56 min-h-full"
+      style="background-image: url(./img/hero-product.png); background-size: cover;">
       <div class="text-center pt-8">
-        <h1 class="font-bold font-delta lg:text-6xl md:text-4xl text-2xl">Cari industri yang <br> kamu <span class="underline decoration-triatry">inginkan.</span></h1>
+        <h1 class="font-bold font-delta lg:text-6xl md:text-4xl text-2xl">Cari industri yang <br> kamu <span
+            class="underline decoration-triatry">inginkan.</span></h1>
       </div>
     </div>
   </div>
   <!-- Akhir Jumbotron -->
-
-
 
   <!-- Let join -->
   <main class="mt-[1rem]">
@@ -120,27 +123,27 @@
   <!-- Awal Pemilihan -->
   <div class="flex flex-col sm:flex-row justify-center my-10 mx-5 md:flex px-3 sm:px-5">
     <h1 class="mb-2 sm:mb-0 sm:mr-4 self-center text-triatry">Populer |</h1>
-    <a href="" class="mb-2 sm:px-9 mr-2 py-2 px-5 bg-triatry text-white text-base rounded-full text-center">
+    <a href="./projectUIUX.html"
+      class="mb-2 sm:px-9 mr-2 py-2 px-5 bg-triatry text-white text-base rounded-full text-center hover:bg-orange-700 hover:transition-all">
       <h1>Teknik Informatika</h1>
     </a>
     <a href=""
-      class="mb-2 sm:mb-0 sm:mr-2 py-2 px-6 bg-white border border-triatry text-triatry text-base rounded-full text-center">Manajemen</a>
-    <a href=""
-      class="py-2 px-6 bg-white border border-triatry text-triatry text-base rounded-full text-center">Hukum</a>
+      class="mb-2 sm:mb-0 sm:mr-2 py-2 px-6 bg-white border border-triatry text-triatry text-base rounded-full text-center hover:bg-orange-600 hover:transition-all hover:text-lightf">Manajemen</a>
+    <a href="" id="hukum"
+      class="py-2 px-6 bg-white border border-triatry text-triatry text-base rounded-full text-center hover:bg-orange-600 hover:transition-all hover:text-lightf">Hukum</a>
   </div>
   <!-- Akhir Pemilihan -->
 
 
   <!-- Pilihan Product -->
   <a href="./projectUIUX.html">
-    <div>
-      <div class="container mx-auto flex justify-center max-w-3xl md:max-w-full">
-        <div class="px-4 py-6 md:w-[90%]">
-          <!-- <a href=""> -->
+    <div data-aos="fade-up">
+      <div class="container mx-auto flex justify-center max-w-3xl md:max-w-full hoveranImg">
+        <div class="px-4 py-6 md:w-[90%] ">
           <img src="img/TI.png" alt="" />
-          <!-- </a> -->
         </div>
       </div>
+
     </div>
   </a>
 
@@ -148,12 +151,13 @@
   <!-- Trend Industri -->
   <div>
     <div class="container flex justify-center max-w-3xl mx-auto px-4 md:max-w-full">
-      <div class="bg-triatry flex justify-between items-center px-4 rounded-2xl text-white py-6 w-full md:w-[90%]">
+      <div class="bg-triatry flex justify-between items-center px-4 rounded-2xl text-white py-6 w-full md:w-[90%]" data-aos="fade-up">
         <div>
           <h2 class="font-bold text-lg md:text-2xl">Trend Industri</h2>
         </div>
-        <div class="flex">
-          <a href="./projectUIUX.html" class="bg-lightf text-triatry font-bold px-4 rounded-2xl text-sm py-2 flex items-center">
+        <div class="flex" >
+          <a href="./projectUIUX.html"
+            class="bg-lightf text-triatry font-bold px-4 rounded-2xl text-sm py-2 flex items-center hoveranImg hover:bg-slate-200 ">
             <span>Pelajari industri ini</span>
             <i class="fas fa-arrow-right pl-2"></i>
           </a>
@@ -167,15 +171,15 @@
 
   <!-- Pilihan Produk -->
   <div>
-    <a href="">
-      <div class="container flex justify-center mx-auto max-w-3xl px-4 gap-5 py-5 md:max-w-full md:w-[90%]">
-        <div>
+    <a href="" class="hoveranImg" id="hukum">
+      <div class="container flex justify-center mx-auto max-w-3xl px-4 gap-5 py-5 md:max-w-full md:w-[90%] ">
+        <div  data-aos="fade-up-right">
           <img src="img/project-hukum.png" alt="" />
         </div>
     </a>
-    <a href="">
-      <div>
-        <img src="img/project-manajemen.png" alt="" srcset="" />
+    <a href="" class="hoveranImg">
+      <div  data-aos="fade-up-left">
+        <img src="img/project-manajemen.png" alt="" />
       </div>
     </a>
   </div>
@@ -190,6 +194,11 @@
   </footer>
   <!-- Footet -->
 
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
   <script src="./js/index.js"></script>
 </body>
 
