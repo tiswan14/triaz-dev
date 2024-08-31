@@ -9,7 +9,7 @@ module.exports = {
     './projectUIUX.html',
     './projectBackend.html',
     './projectFrontend.html.html.',
-  ], // Tanda kutip penutup yang hilang sudah ditambahkan
+  ],
   theme: {
     extend: {
       colors: {

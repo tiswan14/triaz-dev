@@ -1,248 +1,345 @@
 <!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Data Science | Grow UP</title>
+    <link rel="stylesheet" href="./src/output.css" />
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- AOS -->
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Data Science | Grow UP</title>
-  <link rel="stylesheet" href="./src/output.css" />
-  <!-- AOS -->
-  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-  <!-- AOS -->
+    <!--Awal  Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Delta+Gothic+One&family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
 
-  <!--Awal  Font -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Delta+Gothic+One&family=Quicksand:wght@300..700&display=swap"
-    rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet" />
+    <!-- Akhir Font -->
 
-  <!-- Akhir Font -->
+    <!-- Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <!-- Icons -->
+  </head>
 
-  <!-- Icons -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
-  <!-- Icons -->
-</head>
+  <body>
+    <!-- Navbar -->
+    <header
+      class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10"
+    >
+      <div class="container">
+        <div class="flex items-center justify-between relative">
+          <div class="px-4">
+            <a href="#"
+              ><img
+                src="./img/GROW UP LOGO WEBSITE-01 1.png"
+                alt=""
+                class="w-14 my-4 md:w-20 lg:w-24"
+            /></a>
+          </div>
+          <div class="flex items-center px-4">
+            <button
+              id="hamburger"
+              name="hamburger"
+              type="button"
+              class="block absolute right-4 lg:hidden"
+            >
+              <span
+                class="hamburger-line transition duration-300 ease-in-out origin-top-left"
+              ></span>
+              <span
+                class="hamburger-line transition duration-300 ease-in-out"
+              ></span>
+              <span
+                class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"
+              ></span>
+            </button>
 
-<body>
-  <!-- Navbar -->
-  <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
-    <div class="container">
-      <div class="flex items-center justify-between relative">
-        <div class="px-4">
-          <a href="#"><img src="./img/GROW UP LOGO WEBSITE-01 1.png" alt="" class="w-14 my-4 md:w-20 lg:w-24" /></a>
-        </div>
-        <div class="flex items-center px-4">
-          <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
-            <span class="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
-            <span class="hamburger-line transition duration-300 ease-in-out"></span>
-            <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"></span>
-          </button>
-
-          <nav id="navMenu"
-            class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
-            <ul class="block lg:flex">
-              <li class="group">
-                <a href="./index.html" class="text-base text-black py-2 mx-8 flex group-hover:text-triatry">Beranda</a>
-              </li>
-              <li class="group">
-                <a href="./tentangkami.html"
-                  class="text-base transition-all text-black py-2 mx-8 flex group-hover:text-triatry">Tentang Kami</a>
-              </li>
-              <li class="group">
-                <a href="./product.html"
-                  class="text-base font-bold border-b-2 border-triatry text-triatry py-2 mx-8 flex group-hover:text-triatry">Product</a>
-              </li>
-              <li class="group">
-                <a href="./fiturungulan.html"
-                  class="text-base text-black py-2 mx-8 flex group-hover:text-triatry">Fitur</a>
-              </li>
-              <li class="group">
-                <a href="./kontak.html" class="text-base text-black py-2 mx-8 flex group-hover:text-triatry">Kontak</a>
-              </li>
-            </ul>
-          </nav>
+            <nav
+              id="navMenu"
+              class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none"
+            >
+              <ul class="block lg:flex">
+                <li class="group">
+                  <a
+                    href="./index.html"
+                    class="text-base text-black py-2 mx-8 flex group-hover:text-triatry"
+                    >Beranda</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="./tentangkami.html"
+                    class="text-base transition-all text-black py-2 mx-8 flex group-hover:text-triatry"
+                    >Tentang Kami</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="./product.html"
+                    class="text-base font-bold border-b-2 border-triatry text-triatry py-2 mx-8 flex group-hover:text-triatry"
+                    >Product</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="./fiturungulan.html"
+                    class="text-base text-black py-2 mx-8 flex group-hover:text-triatry"
+                    >Fitur</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="./kontak.html"
+                    class="text-base text-black py-2 mx-8 flex group-hover:text-triatry"
+                    >Kontak</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
         </div>
       </div>
-    </div>
-  </header>
-  <!-- End Navbar -->
+    </header>
+    <!-- End Navbar -->
 
-  <!-- Awal Jumbotron -->
-  <div class="relative mt-20 w-full">
-    <div class="bg-cover bg-center w-full max-w-full lg:h-[29rem] md:h-[20rem] h-56 min-w-full" style="
+    <!-- Awal Jumbotron -->
+    <div class="relative mt-20 w-full">
+      <div
+        class="bg-cover bg-center w-full max-w-full lg:h-[29rem] md:h-[20rem] h-56 min-w-full"
+        style="
           background-image: url(./img/hero-product.png);
           background-size: cover;
-        ">
-      <div class="text-center pt-8">
-        <h1 class="font-bold font-delta lg:text-6xl md:text-4xl text-2xl">
-          Cari industri yang <br />
-          kamu <span class="underline decoration-triatry">inginkan.</span>
-        </h1>
-      </div>
-    </div>
-  </div>
-  <!-- Akhir Jumbotron -->
-
-  <!-- Let join -->
-  <main class="mt-[1rem] bg-triatry">
-    <div
-      class="scrolling-container container flex items-center justify-center gap-3 max-w-3xl mx-auto  mt-2 py-1 md:py-2 text-lightf font-delta text-base md:text-xl lg:text-2xl overflow-x-hidden md:max-w-full"
-      style="white-space: nowrap; animation: scroll 60s linear infinite;">
-      <section class="flex-shrink-0 min-w-0 animate-scroll">
-        <h1 class="truncate">JOIN WITH US</h1>
-      </section>
-      <section class="flex-shrink-0 animate-scroll">
-        <img class="w-10" src="img/thinsmooth.svg" alt="" />
-      </section>
-      <section class="flex-shrink-0 min-w-0 animate-scroll">
-        <h1 class="truncate">LET'S JOIN WITH US</h1>
-      </section>
-      <section class="flex-shrink-0 animate-scroll">
-        <img class="w-10" src="img/thinsmooth.svg" alt="" />
-      </section>
-      <section class="flex-shrink-0 min-w-0 animate-scroll">
-        <h1 class="truncate">LET'S JOIN WITH US</h1>
-      </section>
-      <section class="flex-shrink-0 animate-scroll">
-        <img class="w-10" src="img/thinsmooth.svg" alt="" />
-      </section>
-      <section class="flex-shrink-0 min-w-0 animate-scroll">
-        <h1 class="truncate">LET'S JOIN WITH US</h1>
-      </section>
-      <section class="flex-shrink-0 animate-scroll">
-        <img class="w-10" src="img/thinsmooth.svg" alt="" />
-      </section>
-      <section class="flex-shrink-0 min-w-0 animate-scroll">
-        <h1 class="truncate">LET'S JOIN WITH</h1>
-      </section>
-      <section class="flex-shrink-0 min-w-0 animate-scroll">
-        <h1 class="truncate">JOIN WITH US</h1>
-      </section>
-      <section class="flex-shrink-0 animate-scroll">
-        <img class="w-10" src="img/thinsmooth.svg" alt="" />
-      </section>
-      <section class="flex-shrink-0 min-w-0 animate-scroll">
-        <h1 class="truncate">LET'S JOIN WITH US</h1>
-      </section>
-      <section class="flex-shrink-0 animate-scroll">
-        <img class="w-10" src="img/thinsmooth.svg" alt="" />
-      </section>
-      <section class="flex-shrink-0 min-w-0 animate-scroll">
-        <h1 class="truncate">LET'S JOIN WITH US</h1>
-      </section>
-      <section class="flex-shrink-0 animate-scroll">
-        <img class="w-10" src="img/thinsmooth.svg" alt="" />
-      </section>
-      <section class="flex-shrink-0 min-w-0 animate-scroll">
-        <h1 class="truncate">LET'S JOIN WITH US</h1>
-      </section>
-      <section class="flex-shrink-0 animate-scroll">
-        <img class="w-10" src="img/thinsmooth.svg" alt="" />
-      </section>
-      <section class="flex-shrink-0 min-w-0 animate-scroll">
-        <h1 class="truncate">LET'S JOIN WITH</h1>
-      </section>
-    </div>
-  </main>
-  <!-- Akhir Lets Join  -->
-
-  <!-- Awal Pilihan -->
-  <div class="justify-center px-4">
-    <img src="./img/ProdTI.png" alt="" class="md:mt-24 lg:mt-36 mx-auto mt-4" data-aos="fade-up"/>
-  </div>
-  <div class="flex mt-4 gap-1 justify-center lg:my-11">
-    <a href="./projectUIUX.html"
-      class="text-xs bg-white border border-triatry px-4 py-1 text-triatry font-semibold rounded-2xl lg:text-lg lg:px-8 lg:mr-4 hover:bg-orange-500 hover:text-lightf hover:transition-all">UI/UX</a>
-    <a href="./projectFrontend.html"
-      class="text-xs bg-white border border-triatry px-4 py-1 text-triatry font-semibold rounded-2xl lg:text-lg lg:px-8 lg:mr-4 hover:bg-orange-500 hover:text-lightf hover:transition-all">Front-end</a>
-    <a href="./projectBackend.html"
-      class="text-xs bg-white border border-triatry px-4 py-1 text-triatry font-semibold rounded-2xl lg:text-lg lg:px-8 lg:mr-4 hover:bg-orange-500 hover:text-lightf hover:transition-all">Back-end</a>
-    <a href="project-datascience.html"
-      class="text-xs bg-triatry px-4 py-1 text-lightf rounded-2xl lg:text-lg lg:px-8 lg:mr-4">Data Science</a>
-  </div>
-  <!-- Akhir Pilihan -->
-
-  <!-- Awal pilihangambar -->
-  <div class="px-2 flex justify-center lg:mt-4" >
-    <img src="./img/project-datascience1.png" alt="" class="w-36 mt-3 mr-2 md:w-64 lg:w-[30rem] lg:mr-5" data-aos="zoom-in-right" />
-    <div class="block">
-      <div class="flex">
-        <img src="./img/project-datascience2.png" alt="" class="w-28 mt-3 mr-2 md:w-44 lg:w-96 lg:mr-5" data-aos="zoom-in-up" />
-        <img src="./img/project-datascience3.png" alt="" class="w-28 mt-3 md:w-44 lg:w-96" data-aos="zoom-in-left" />
-      </div>
-      <div class="block w-48 md:w-60 md:mt-2 md:ml-2">
-        <section data-aos="zoom-in-up">
-          <h1 class="font-semibold text-triatry lg:text-3xl border w-[250px]">
-            Apa itu Data Science?
+        "
+      >
+        <div class="text-center pt-8">
+          <h1 class="font-bold font-delta lg:text-6xl md:text-4xl text-2xl">
+            Cari industri yang <br />
+            kamu <span class="underline decoration-triatry">inginkan.</span>
           </h1>
-          <p class="text-xs md:w-80 lg:text-lg lg:w-[30rem]">
-            Data Science adalah bidang multidisiplin yang berfokus pada
-            penggunaan teknik, algoritma, dan sistem untuk mengekstrak
-            pengetahuan dan wawasan dari data
-          </p>
+        </div>
+      </div>
+    </div>
+    <!-- Akhir Jumbotron -->
+
+    <!-- Let join -->
+    <main class="mt-[1rem] bg-triatry">
+      <div
+        class="scrolling-container container flex items-center justify-center gap-3 max-w-3xl mx-auto mt-2 py-1 md:py-2 text-lightf font-delta text-base md:text-xl lg:text-2xl overflow-x-hidden md:max-w-full"
+        style="white-space: nowrap; animation: scroll 60s linear infinite"
+      >
+        <section class="flex-shrink-0 min-w-0 animate-scroll">
+          <h1 class="truncate">JOIN WITH US</h1>
+        </section>
+        <section class="flex-shrink-0 animate-scroll">
+          <img class="w-10" src="img/thinsmooth.svg" alt="" />
+        </section>
+        <section class="flex-shrink-0 min-w-0 animate-scroll">
+          <h1 class="truncate">LET'S JOIN WITH US</h1>
+        </section>
+        <section class="flex-shrink-0 animate-scroll">
+          <img class="w-10" src="img/thinsmooth.svg" alt="" />
+        </section>
+        <section class="flex-shrink-0 min-w-0 animate-scroll">
+          <h1 class="truncate">LET'S JOIN WITH US</h1>
+        </section>
+        <section class="flex-shrink-0 animate-scroll">
+          <img class="w-10" src="img/thinsmooth.svg" alt="" />
+        </section>
+        <section class="flex-shrink-0 min-w-0 animate-scroll">
+          <h1 class="truncate">LET'S JOIN WITH US</h1>
+        </section>
+        <section class="flex-shrink-0 animate-scroll">
+          <img class="w-10" src="img/thinsmooth.svg" alt="" />
+        </section>
+        <section class="flex-shrink-0 min-w-0 animate-scroll">
+          <h1 class="truncate">LET'S JOIN WITH</h1>
+        </section>
+        <section class="flex-shrink-0 min-w-0 animate-scroll">
+          <h1 class="truncate">JOIN WITH US</h1>
+        </section>
+        <section class="flex-shrink-0 animate-scroll">
+          <img class="w-10" src="img/thinsmooth.svg" alt="" />
+        </section>
+        <section class="flex-shrink-0 min-w-0 animate-scroll">
+          <h1 class="truncate">LET'S JOIN WITH US</h1>
+        </section>
+        <section class="flex-shrink-0 animate-scroll">
+          <img class="w-10" src="img/thinsmooth.svg" alt="" />
+        </section>
+        <section class="flex-shrink-0 min-w-0 animate-scroll">
+          <h1 class="truncate">LET'S JOIN WITH US</h1>
+        </section>
+        <section class="flex-shrink-0 animate-scroll">
+          <img class="w-10" src="img/thinsmooth.svg" alt="" />
+        </section>
+        <section class="flex-shrink-0 min-w-0 animate-scroll">
+          <h1 class="truncate">LET'S JOIN WITH US</h1>
+        </section>
+        <section class="flex-shrink-0 animate-scroll">
+          <img class="w-10" src="img/thinsmooth.svg" alt="" />
+        </section>
+        <section class="flex-shrink-0 min-w-0 animate-scroll">
+          <h1 class="truncate">LET'S JOIN WITH</h1>
         </section>
       </div>
+    </main>
+    <!-- Akhir Lets Join  -->
+
+    <!-- Awal Pilihan -->
+    <div class="justify-center px-4">
+      <img
+        src="./img/ProdTI.png"
+        alt=""
+        class="md:mt-24 lg:mt-36 mx-auto mt-4"
+        data-aos="fade-up"
+      />
     </div>
-  </div>
-
-  <!-- Awal definisi -->
-  <div class="flex justify-center items-center gap-4 mt-20 md:gap-8 md:mx-16 lg:gap-16" data-aos="zoom-in-right">
-    <div class="px-16">
-      <button class="bg-bg2 font-semibold text-[12px] px-3 py-1 rounded-xl -ml-1 mb-2">
-        Definisi
-      </button>
-      <h1 class="font-bold text-triatry md:text-lg lg:text-2xl">
-        Data Science
-      </h1>
-      <h3 class="text-xs text-justify mt-2 lg:text-lg">
-        Data Science adalah bidang ilmu yang memanfaatkan metode, algoritma,
-        proses, dan sistem ilmiah untuk mengekstrak pengetahuan, wawasan, dan
-        pola dari data yang seringkali berjumlah besar dan kompleks. Data
-        Science menggabungkan prinsip-prinsip dari berbagai disiplin ilmu,
-        termasuk statistik, matematika, pemrograman, pembelajaran mesin
-        (machine learning), dan domain pengetahuan tertentu untuk menganalisis
-        dan memecahkan masalah berbasis data.
-      </h3>
+    <div class="flex mt-4 gap-1 justify-center lg:my-11">
+      <a
+        href="./projectUIUX.html"
+        class="text-xs bg-white border border-triatry px-4 py-1 text-triatry font-semibold rounded-2xl lg:text-lg lg:px-8 lg:mr-4 hover:bg-orange-500 hover:text-lightf hover:transition-all"
+        >UI/UX</a
+      >
+      <a
+        href="./projectFrontend.html"
+        class="text-xs bg-white border border-triatry px-4 py-1 text-triatry font-semibold rounded-2xl lg:text-lg lg:px-8 lg:mr-4 hover:bg-orange-500 hover:text-lightf hover:transition-all"
+        >Front-end</a
+      >
+      <a
+        href="./projectBackend.html"
+        class="text-xs bg-white border border-triatry px-4 py-1 text-triatry font-semibold rounded-2xl lg:text-lg lg:px-8 lg:mr-4 hover:bg-orange-500 hover:text-lightf hover:transition-all"
+        >Back-end</a
+      >
+      <a
+        href="project-datascience.html"
+        class="text-xs bg-triatry px-4 py-1 text-lightf rounded-2xl lg:text-lg lg:px-8 lg:mr-4"
+        >Data Science</a
+      >
     </div>
-  </div>
-  <!-- Akhir definisi -->
+    <!-- Akhir Pilihan -->
 
+    <!-- Awal pilihangambar -->
+    <div class="px-2 flex justify-center lg:mt-4">
+      <img
+        src="./img/project-datascience1.png"
+        alt=""
+        class="w-36 mt-3 mr-2 md:w-64 lg:w-[30rem] lg:mr-5"
+        data-aos="zoom-in-right"
+      />
+      <div class="block">
+        <div class="flex">
+          <img
+            src="./img/project-datascience2.png"
+            alt=""
+            class="w-28 mt-3 mr-2 md:w-44 lg:w-96 lg:mr-5"
+            data-aos="zoom-in-up"
+          />
+          <img
+            src="./img/project-datascience3.png"
+            alt=""
+            class="w-28 mt-3 md:w-44 lg:w-96"
+            data-aos="zoom-in-left"
+          />
+        </div>
+        <div class="block w-48 md:w-60 md:mt-2 md:ml-2">
+          <section data-aos="zoom-in-up">
+            <h1 class="font-semibold text-triatry lg:text-3xl border w-[250px]">
+              Apa itu Data Science?
+            </h1>
+            <p class="text-xs md:w-80 lg:text-lg lg:w-[30rem]">
+              Data Science adalah bidang multidisiplin yang berfokus pada
+              penggunaan teknik, algoritma, dan sistem untuk mengekstrak
+              pengetahuan dan wawasan dari data
+            </p>
+          </section>
+        </div>
+      </div>
+    </div>
 
+    <!-- Awal definisi -->
+    <div
+      class="flex justify-center items-center gap-4 mt-20 md:gap-8 md:mx-16 lg:gap-16"
+      data-aos="zoom-in-right"
+    >
+      <div class="px-16">
+        <button
+          class="bg-bg2 font-semibold text-[12px] px-3 py-1 rounded-xl -ml-1 mb-2"
+        >
+          Definisi
+        </button>
+        <h1 class="font-bold text-triatry md:text-lg lg:text-2xl">
+          Data Science
+        </h1>
+        <h3 class="text-xs text-justify mt-2 lg:text-lg">
+          Data Science adalah bidang ilmu yang memanfaatkan metode, algoritma,
+          proses, dan sistem ilmiah untuk mengekstrak pengetahuan, wawasan, dan
+          pola dari data yang seringkali berjumlah besar dan kompleks. Data
+          Science menggabungkan prinsip-prinsip dari berbagai disiplin ilmu,
+          termasuk statistik, matematika, pemrograman, pembelajaran mesin
+          (machine learning), dan domain pengetahuan tertentu untuk menganalisis
+          dan memecahkan masalah berbasis data.
+        </h3>
+      </div>
+    </div>
+    <!-- Akhir definisi -->
 
+    <!-- Button Download -->
+    <section>
+      <div
+        class="container mx-auto flex items-center justify-center gap-3 font-semibold py-8 text-xs"
+      >
+        <a href="sample/awesome-datascience-live.zip">
+          <button
+            class="flex items-center gap-1 bg-triatry text-lightf px-4 py-2 rounded-lg"
+          >
+            <img
+              src="img/icon-unduh.png"
+              alt=""
+              style="width: 20px; height: 20px"
+            />Unduh Sample Project
+          </button>
+        </a>
 
-  <!--  -->
- <!-- Sample Project -->
- <div class="flex mt-20 justify-center gap-4 md:gap-8 lg:gap-12">
-  <div class="text-center">
-    <a href="./sample/awesome-datascience-live.zip"
-      class=" ">
-      <img src="./img/SampleUIUX.png" alt="" class="w-36 h-8 md:w-64 md:h-12 lg:w-80 lg:h-16" />
-    </a>
-  </div>
-  <div class="text-center">
-    <a href="./sample/Pengenalan-Data-Science.pptx" download class=" ">
-      <img src="./sample/PPTUI.png" alt="" class="w-36 h-8 md:w-60 md:h-12 lg:w-80 lg:h-16" />
-    </a>
-  </div>
-</div>
-<!-- Sample Project -->
+        <a href="sample/Pengenalan-Data-Science.pptx">
+          <button
+            class="flex items-center gap-1 border border-triatry px-4 py-2 rounded-lg text-triatry font-bold"
+          >
+            <img
+              src="img/icon-unduh=ppt.png"
+              alt=""
+              style="width: 20px; height: 20px; background: #dddd"
+            />Unduh PowerPoint
+          </button>
+        </a>
+      </div>
+    </section>
+    <!-- Button Download -->
 
-  <!--  -->
+    <!--  -->
 
-  <section class="bg-triatry text-lightf font-light w-full text-center py-2 mt-28">
-    <p class="text-sm md:text-[15px] font-semibold w-full md:py-[10px]">
-      &copy; 2024 Triaz Dev. All rights reserved.
-    </p>
-  </section>
+    <section
+      class="bg-triatry text-lightf font-light w-full text-center py-2 mt-28"
+    >
+      <p class="text-sm md:text-[15px] font-semibold w-full md:py-[10px]">
+        &copy; 2024 Triaz Dev. All rights reserved.
+      </p>
+    </section>
 
-
-  <!-- JS -->
-  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
-  <script src="./js/index.js"></script>
-</body>
-
+    <!-- JS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="./js/index.js"></script>
+  </body>
 </html>

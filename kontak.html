@@ -1,192 +1,259 @@
 <!doctype html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Grow UP | Kontak</title>
-  <link rel="stylesheet" href="./src/output.css" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grow UP | Kontak</title>
+    <link rel="stylesheet" href="./src/output.css" />
     <!-- AOS -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- AOS -->
-  <!-- Font -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Delta+Gothic+One&family=Quicksand:wght@300..700&display=swap"
-    rel="stylesheet" />
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Delta+Gothic+One&family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- CDN Icons -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
-  <!-- CDN Icons -->
-</head>
+    <!-- CDN Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <!-- CDN Icons -->
+  </head>
 
-<body>
-  <!-- Navbar -->
-  <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
-    <div class="container">
-      <div class="flex items-center justify-between relative">
-        <div class="px-4">
-          <a href="#"><img src="./img/GROW UP LOGO WEBSITE-01 1.png" alt="" class="w-14 my-4 md:w-20 lg:w-24"></a>
-        </div>
-        <div class="flex items-center px-4">
-          <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
-            <span class="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
-            <span class="hamburger-line transition duration-300 ease-in-out"></span>
-            <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"></span>
-          </button>
-
-          <nav id="navMenu"
-            class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
-            <ul class="block lg:flex ">
-              <li class="group">
-                <a href="./index.html"
-                  class="text-base  text-black py-2 mx-8  flex group-hover:text-triatry">Beranda</a>
-              </li>
-              <li class="group">
-                <a href="./tentangkami.html"
-                  class="text-base text-black py-2 mx-8 flex group-hover:text-triatry">Tentang
-                  Kami</a>
-              </li>
-              <li class="group">
-                <a href="./product.html"
-                  class="text-base text-black py-2 mx-8 flex group-hover:text-triatry">Product</a>
-              </li>
-              <li class="group">
-                <a href="./fiturungulan.html"
-                  class="text-base text-black py-2 mx-8 flex group-hover:text-triatry">Fitur</a>
-              </li>
-              <li class="group">
-                <a href="./kontak.html"
-                  class="text-base font-bold border-b-2 border-triatry text-triatry py-2 mx-8 flex group-hover:text-triatry">Kontak</a>
-              </li>
-            </ul>
-          </nav>
-        </div>
-      </div>
-    </div>
-  </header>
-  <!-- End Navbar -->
-
-
-
-  <!-- Hero -->
-  <section class="mt-16" data-aos="fade-up">
-    <div class="container-contact">
-      <div class="bg-bg2 px-3 py-16 rounded-lg">
-        <div>
-          <h1 class="font-bold text-triatry text-2xl">
-            Kami disini untuk anda.
-          </h1>
-          <p class="py-5">
-            Hubungi kami kapanpun dan dimanapun sesuai keinginan anda
-          </p>
-        </div>
-        <div class="flex justify-center gap-3 text-xs">
-          <button
-            class="py-2 px-3 bg-triatry text-lightf rounded-xl flex items-center hover:bg-orange-700 transition-all ">
-            <i class="far  fa-clock mr-2"></i> Tersedia 24/7
-          </button>
-          <button
-            class="py-2 px-3 bg-triatry text-lightf rounded-xl flex items-center hover:bg-orange-700 transition-all">
-            <i class="far fa-comment-dots mr-2"></i> Balas Pesan Cepat
-          </button>
-          <button
-            class="py-2 px-3 bg-triatry text-lightf rounded-xl flex items-center hover:bg-orange-700 transition-all">
-            <i class="far fa-calendar-alt mr-2"></i> Jam Kerja Fleksibel
-          </button>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Hero -->
-  <!--  -->
-  <section class="md:" data-aos="fade-up">
-    <div class="container-contact">
-      <div class="contact mb-8">
-        <div class="card-contact">
-          <div>
-            <p class="mb-1">Kamu dapat email ke sini</p>
-            <p class="font-semibold">randikaacreative@gmail.com</p>
+  <body>
+    <!-- Navbar -->
+    <header
+      class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10"
+    >
+      <div class="container">
+        <div class="flex items-center justify-between relative">
+          <div class="px-4">
+            <a href="#"
+              ><img
+                src="./img/GROW UP LOGO WEBSITE-01 1.png"
+                alt=""
+                class="w-14 my-4 md:w-20 lg:w-24"
+            /></a>
           </div>
-          <div class="border-2 py-2 px-3">
-            <i class="fas fa-arrow-right text-triatry font-bold"></i>
-          </div>
-        </div>
-        <div class="card-contact">
-          <div>
-            <p class="mb-1">Telepon ke nomor</p>
-            <p class="font-semibold">(+62) 812 345 678 901</p>
-          </div>
-          <div class="border-2 py-2 px-3">
-            <i class="fas fa-arrow-right text-triatry font-bold"></i>
-          </div>
-        </div>
-        <div class="card-contact">
-          <div>
-            <p class="mb-1">Lokasi</p>
-            <p class="font-semibold">Suatu tempat di Dunia</p>
-          </div>
-          <div class="border-2 py-2 px-3">
-            <i class="fas fa-arrow-right text-triatry font-bold"></i>
+          <div class="flex items-center px-4">
+            <button
+              id="hamburger"
+              name="hamburger"
+              type="button"
+              class="block absolute right-4 lg:hidden"
+            >
+              <span
+                class="hamburger-line transition duration-300 ease-in-out origin-top-left"
+              ></span>
+              <span
+                class="hamburger-line transition duration-300 ease-in-out"
+              ></span>
+              <span
+                class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"
+              ></span>
+            </button>
+
+            <nav
+              id="navMenu"
+              class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none"
+            >
+              <ul class="block lg:flex">
+                <li class="group">
+                  <a
+                    href="./index.html"
+                    class="text-base text-black py-2 mx-8 flex group-hover:text-triatry"
+                    >Beranda</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="./tentangkami.html"
+                    class="text-base text-black py-2 mx-8 flex group-hover:text-triatry"
+                    >Tentang Kami</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="./product.html"
+                    class="text-base text-black py-2 mx-8 flex group-hover:text-triatry"
+                    >Product</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="./fiturungulan.html"
+                    class="text-base text-black py-2 mx-8 flex group-hover:text-triatry"
+                    >Fitur</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="./kontak.html"
+                    class="text-base font-bold border-b-2 border-triatry text-triatry py-2 mx-8 flex group-hover:text-triatry"
+                    >Kontak</a
+                  >
+                </li>
+              </ul>
+            </nav>
           </div>
         </div>
       </div>
+    </header>
+    <!-- End Navbar -->
 
-      <div class="pesan" data-aos="fade-up">
-        <div class="container-contact">
-          <div class="bg-bg2 py-16 px-4">
-            <h2 class="text-xl font-semibold mb-6 text-center">
-              Kirim Pesan
-            </h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-              <input type="text" placeholder="Nama Depan" class="border border-gray-300 p-2 rounded w-full" />
-              <input type="text" placeholder="Nama Belakang" class="border border-gray-300 p-2 rounded w-full" />
-              <input type="email" placeholder="Email" class="border border-gray-300 p-2 rounded w-full" />
-              <input type="text" placeholder="Nomor Telepon" class="border border-gray-300 p-2 rounded w-full" />
-              <textarea placeholder="Tulis pesan disini ..."
-                class="border border-gray-300 p-2 rounded h-24 w-full"></textarea>
+    <!-- Hero -->
+    <section class="mt-16" data-aos="fade-up">
+      <div class="container-contact">
+        <div class="bg-bg2 px-3 py-16 rounded-lg relative">
+          <div>
+            <h1 class="font-bold text-triatry text-2xl md:text-3xl lg:text-4xl">
+          <img src="img/start.png" class='absolute top-24' alt="">
+          Kami disini untuk anda.
+            </h1>
+            <p class="py-5 md:text-lg">
+              Hubungi kami kapanpun dan dimanapun sesuai keinginan anda
+            </p>
+          </div>
+          <div class="flex justify-center gap-3 text-xs md:text-base">
+            <button
+              class="py-2 px-3 bg-triatry text-lightf rounded-xl flex items-center hover:bg-orange-700 transition-all"
+            >
+              <i class="far fa-clock mr-2"></i> Tersedia 24/7
+            </button>
+            <button
+              class="py-2 px-3 bg-triatry text-lightf rounded-xl flex items-center hover:bg-orange-700 transition-all"
+            >
+              <i class="far fa-comment-dots mr-2"></i> Balas Pesan Cepat
+            </button>
+            <button
+              class="py-2 px-3 bg-triatry text-lightf rounded-xl flex items-center hover:bg-orange-700 transition-all"
+            >
+              <i class="far fa-calendar-alt mr-2"></i> Jam Kerja Fleksibel
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Hero -->
+    <!--  -->
+    <section class="md:" data-aos="fade-up">
+      <div class="container-contact">
+        <div class="contact mb-8">
+          <div class="card-contact">
+            <div>
+              <p class="mb-1 md:text-base lg:text-lg">
+                Kamu dapat email ke sini
+              </p>
+              <p class="font-semibold md:text-base lg:text-lg">
+                randikaacreative@gmail.com
+              </p>
             </div>
-            <div class="mt-4">
-              <button
-                class="bg-triatry text-white py-2 px-4 rounded hover:bg-opacity-80 flex items-center justify-center w-full" id="btn">
-                <i class="fas fa-envelope mr-2"></i> Kirim Pesan
-              </button>
+            <div class="border-2 py-2 px-3">
+              <i class="fas fa-arrow-right text-triatry font-bold"></i>
+            </div>
+          </div>
+          <div class="card-contact">
+            <div>
+              <p class="mb-1 md:text-base lg:text-lg">Telepon ke nomor</p>
+              <p class="font-semibold md:text-base lg:text-lg">
+                (+62) 812 345 678 901
+              </p>
+            </div>
+            <div class="border-2 py-2 px-3">
+              <i class="fas fa-arrow-right text-triatry font-bold"></i>
+            </div>
+          </div>
+          <div class="card-contact">
+            <div>
+              <p class="mb-1 md:text-base lg:text-lg">Lokasi</p>
+              <p class="font-semibold md:text-base lg:text-lg">
+                Suatu tempat di Dunia
+              </p>
+            </div>
+            <div class="border-2 py-2 px-3">
+              <i class="fas fa-arrow-right text-triatry font-bold"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="pesan" data-aos="fa">
+            <div class="bg-bg2 py-16 px-4 rounded-lg">
+              <h2 class="text-xl font-semibold mb-6 text-center">
+                Kirim Pesan
+              </h2>
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <input
+                  type="text"
+                  placeholder="Nama Depan"
+                  class="border border-gray-300 p-2 rounded w-full"
+                />
+                <input
+                  type="text"
+                  placeholder="Nama Belakang"
+                  class="border border-gray-300 p-2 rounded w-full"
+                />
+                <input
+                  type="email"
+                  placeholder="Email"
+                  class="border border-gray-300 p-2 rounded w-full"
+                />
+                <input
+                  type="text"
+                  placeholder="Nomor Telepon"
+                  class="border border-gray-300 p-2 rounded w-full"
+                />
+                <textarea
+                  placeholder="Tulis pesan disini ..."
+                  class="border border-gray-300 p-2 rounded h-24 w-full"
+                ></textarea>
+              </div>
+              <div class="mt-4">
+                <button
+                  class="bg-triatry text-white py-2 px-4 rounded hover:bg-opacity-80 flex items-center justify-center w-full"
+                  id="btn"
+                >
+                  <i class="fas fa-envelope mr-2"></i> Kirim Pesan
+                </button>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-  <!--  -->
-  <!--  -->
-  <section>
-    <div class="container-contact">
-      <h2 class="mb-2">Follow akun resmi kami:</h2>
-      <div class="flex justify-center gap-5 md:gap-5">
-        <a href=""> <img src="img/Facebook.png" alt="" /></a>
-        <a href=""> <img src="img/Instagram.png" alt="" /></a>
-        <a href=""><img src="img/Tik Tok.png" alt="" /></a>
-        <a href=""><img src="img/Twitter.png" alt="" /></a>
+    </section>
+    <!--  -->
+    <!--  -->
+    <section>
+      <div class="container-contact">
+        <h2 class="mb-2 lg:text-lg">Follow akun resmi kami:</h2>
+        <div class="flex justify-center gap-5 md:gap-5">
+          <a href=""> <img src="img/Facebook.png" alt="" /></a>
+          <a href=""> <img src="img/Instagram.png" alt="" /></a>
+          <a href=""><img src="img/Tik Tok.png" alt="" /></a>
+          <a href=""><img src="img/Twitter.png" alt="" /></a>
+        </div>
       </div>
-    </div>
-  </section>
-  <!-- Footet -->
-  <footer>
-    <div class="container bg-triatry max-w-3xl mx-auto md:max-w-full">
-      <p class="text-sm md:text-[15px] font-semibold text-center text-white py-2 md:py-[15px] w-full">
-        &copy; 2024 Triaz Dev. All rights reserved.
-      </p>
-    </div>
-  </footer>
-  <!-- Footet -->
-</body>
+    </section>
+    <!-- Footet -->
+    <footer>
+      <div class="container bg-triatry max-w-3xl mx-auto md:max-w-full">
+        <p
+          class="text-sm md:text-[15px] font-semibold text-center text-white py-2 md:py-[15px] w-full"
+        >
+          &copy; 2024 Triaz Dev. All rights reserved.
+        </p>
+      </div>
+    </footer>
+    <!-- Footet -->
+  </body>
 
-
-<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-<script>
-  AOS.init();
-</script>
-<script src="js/index.js"></script>
-
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="js/index.js"></script>
 </html>
