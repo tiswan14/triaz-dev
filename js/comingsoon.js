@@ -1,3 +1,6 @@
+
+alert("Industry dari hukum dan Management Commingsoonn !! :)");
+
 window.onscroll = () => {
     const header = document.querySelector('header');
     const fixednav = header.offsetTop;
@@ -40,14 +43,9 @@ button.addEventListener('click', () => {
         document.getElementById('pesanAnda').value = '';
     }
 });
+// Akhir Untuk Homepage Pesan
 
-
-
-const btn = document.getElementById('btn');
-
-btn.addEventListener('click', () => {
-    alert("Pesan Terkirim");
-})
+// Hukum dan management
 
 
 

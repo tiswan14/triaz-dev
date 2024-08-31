@@ -11,49 +11,6 @@
 2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)
 */
 
-
-
-
-
-/* Infinity Scrolll */
-.scrolling-wrapper {
-  width: 100%;
-  /* Lebar sesuai viewport */
-  overflow: hidden;
-}
-
-.scrolling-container {
-  display: inline-flex;
-  /* Mengatur konten dalam satu baris */
-  animation: scroll 30s linear infinite;
-  /* Animasi scroll */
-}
-
-.scrolling-container-duplicate {
-  display: inline-flex;
-}
-
-@keyframes scroll {
-  0% {
-    transform: translateX(0);
-  }
-
-  100% {
-    transform: translateX(500%);
-    /* Menggeser sejauh lebar konten asli */
-  }
-}
-/* Infinity Scrolll */
-
-
-
-
-
-
-
-
-
-
 *,
 ::before,
 ::after {
@@ -2013,6 +1970,14 @@ ul li a:hover{
 
   .lg\:h-\[29rem\]{
     height: 29rem;
+  }
+
+  .lg\:h-\[30rem\]{
+    height: 30rem;
+  }
+
+  .lg\:h-\[40rem\]{
+    height: 40rem;
   }
 
   .lg\:w-24{
